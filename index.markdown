@@ -13,4 +13,4 @@ I perform engineering work on a contract basis. Please do reach out if you're in
 
 ![Math notebook](/assets/images/wet_notebook.jpg)
 
-My pronouns are they/them. I find that, in the aerospace industry, folks don't talk about gender or pronouns much. If you have questions, [MyPronouns.org](https://www.mypronouns.org) is a useful resource &mdash; or you can just ask me (I don't bite).
+My pronouns are they/them. I find that, in the aerospace industry, folks don't talk about gender or pronouns much. If you have questions, [MyPronouns.org](https://www.mypronouns.org) is a useful resource &mdash; or you can just ask me.
