@@ -5,7 +5,7 @@
 layout: home
 ---
 
-**Hi, I'm Juno Woods.**
+**Hi, I'm Juno Woods, PhD.**
 
 I do spacecraft navigation, state estimation, and mission design, with a focus on lunar missions. Sometimes I dabble in space settlement policy as well.
 

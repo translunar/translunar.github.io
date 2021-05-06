@@ -60,7 +60,7 @@ permalink: /research/
 
 * Singh-Blom, Natarajan, Tewari, **Woods**, Dhillon, Marcotte (2011 Oct 20). [Predicting gene-disease associations using multiple species data](/assets/research/UTCS_Technical_Report.pdf). UTCS Technical Report TR-11-37. Department of Computer Science, The University of Texas at Austin, Austin, TX.
 
-### Dissertation
+### Doctoral Dissertation
 
 * **Woods** (2013 Dec). _[Predicting gene&ndash;phenotype associations in humans and other species from orthologous and paralogous phenotypes](https://repositories.lib.utexas.edu/bitstream/handle/2152/23292/WOODS-DISSERTATION-2013.pdf?sequence=1)_. The University of Texas at Austin, Austin, TX.
 
