@@ -5,7 +5,7 @@
 layout: home
 ---
 
-**Hi, I'm Juno Woods, PhD.**
+# Hi, I'm Juno Woods, PhD.
 
 I do spacecraft navigation (state estimation), and mission design, with a focus on lunar missions, and dabble in space settlement policy. **I believe firmly that we cannot solve our environmental problems without moving heavy industry into space, which requires a sustained presence on the Moon.**
 
