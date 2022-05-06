@@ -8,7 +8,17 @@ For fun, I teach myself new skills and use them to make art. I used to work with
 
 # Charismatic Metafauna (2021-22)
 
-Coming soon.
+My partner Amie and I proposed this project to [Majorelle Arts](https://www.majorellearts.com) last May, which in turn proposed it to Burning Man. Charismatic Metafauna received a Burning Man 2022 Honorarium.
+
+"The Charismatic Metafauna is a garden of endangered species. Reacting to nearby participants, the sculptures grow fearful and ‘die’ when disrespected. Drawn in by the garden’s beauty, [participants] must act as stewards of its health to be rewarded with the joy of its flourishing."
+
+Rather than picking well-known species, we are choosing to emphasize the beauty of some of the lesser known representatives of the animal kingdom that we are very near to losing.
+
+[The prototype, classified as charismatic metaflora rather than metafauna, can be seen here and below.](http://majorellearts.com/metafauna.html) Work is ongoing and delivery is planned for August 2022 in Black Rock City. The project budget is around $30K and all of the major work will be done by volunteers.
+
+![Nepenthes, our prototype](/assets/art/pitcher.jpeg)
+
+I am the sound design team lead, my first foray into making music and ambiance for an art project, which involves collaborating with around two dozen other artists and managing a team of volunteers to make sure the system specifications are adequately defined and eventually executed upon.
 
 # Brainstorm (2018)
 
