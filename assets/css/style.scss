@@ -11,3 +11,7 @@ width: 5px;
 top: 10px;
 max-width:100%;
 }
+
+.Coaching::before {
+    content: url("/assets/images/logo_small_pride.png");
+}

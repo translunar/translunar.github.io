@@ -4,7 +4,7 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}"><!--img src="../assets/images/logo.png" alt="{{ site.title | escape }} logo" class="logo"/--></a>
+    <a class="site-title {{page.title}}" rel="author" href="{{ "/" | relative_url }}"><!--img src="../assets/images/logo.png" alt="{{ site.title | escape }} logo" class="logo"/--></a>
 
     {%- if titles_size > 0 -%}
       <nav class="site-nav">
@@ -20,7 +20,7 @@
         <div class="trigger">
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title and my_page.title != 'Home' -%}
+            {%- if my_page.title and my_page.title != 'Home' and my_page.title != 'Biography' and my_page.title != 'Media' -%}
               <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}

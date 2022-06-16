@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Media
-permalink: /bio/
+permalink: /about/media/
 ---
 
 ## Science
