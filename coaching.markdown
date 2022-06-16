@@ -16,7 +16,7 @@ I begin by asking the client what their goals are. We discuss the variety of med
 
 ## Fees
 
-I charge coaching clients a sliding scale fee. I charge $300 for a 50-minute appointment, which includes any follow-up research that might be needed.
+I charge coaching clients a sliding scale fee. My standard rate is $300 for a 50-minute appointment, which includes any follow-up research that might be needed.
 
 ## Joining my practice
 
