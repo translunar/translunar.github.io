@@ -18,12 +18,22 @@ Each animal was paired with a xylophone, with which participants could engage in
 
 The project budget was around $30K and the major work was carried out by an all-volunteer team.
 
+## Fly Ranch pyrg, threatened
 ![Fly Ranch pyrg](/assets/art/pyrg.jpg)
+
+## Spotted owl, endangered
 ![Spotted owl](/assets/art/owl.jpg)
+
+## Houston toad, endangered
 ![Houston toad](/assets/art/toad.jpg)
+
+## Simon's swallowtail butterfly, endangered
 ![Simon's swallowtail butterfly](/assets/art/butterfly.jpg)
+
+## Pyrenean ibex, extinct
 ![Pyrenean ibex](/assets/art/ibex.jpg)
 
+## Video
 <iframe width="560" height="315" src="https://youtube.com/embed/eQVhj1QKVJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Brainstorm (2018)
