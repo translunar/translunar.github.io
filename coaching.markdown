@@ -6,7 +6,7 @@ permalink: /coaching/
 
 For many transgender people, transition can be a full-time job. No instruction manual exists for when or how to transition, or what the steps should be &mdash; rightfully so, since everyone's experience is different. While medical providers can help, their recommendations are constrained by a marked lack of evidence-based research and sometimes also out-of-date information. Many transitioners turn to Reddit, which is an amazing source of information &mdash; and likewise an amazing source of misinformation.
 
-<img alt="Futuristic headshot of Juno, who has bright red hair, a septum piercing, and symmetric vertical labret lip piercings. They are wearing a red and orange crop top, a leather shrug, an ankh necklace, and a black skirt. Juno is partially backlit by a neon display in a window which includes the word 'open.'" src="/assets/images/cyberpunk.jpg" style="width:50%" align="right" />
+<!--img alt="Futuristic headshot of Juno, who has bright red hair, a septum piercing, and symmetric vertical labret lip piercings. They are wearing a red and orange crop top, a leather shrug, an ankh necklace, and a black skirt. Juno is partially backlit by a neon display in a window which includes the word 'open.'" src="/assets/images/cyberpunk.jpg" style="width:50%" align="right" /-->
 
 ## Approach
 
