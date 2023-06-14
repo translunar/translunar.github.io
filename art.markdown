@@ -12,13 +12,19 @@ My partner Amie and I proposed this project to [Majorelle Arts](https://www.majo
 
 "The Charismatic Metafauna is a garden of endangered species. Reacting to nearby participants, the sculptures grow fearful and ‘die’ when disrespected. Drawn in by the garden’s beauty, [participants] must act as stewards of its health to be rewarded with the joy of its flourishing."
 
-Rather than picking well-known species, we are choosing to emphasize the beauty of some of the lesser known representatives of the animal kingdom that we are very near to losing.
+Rather than picking well-known species, we are choosing to emphasize the beauty of some of the lesser known representatives of the animal kingdom that we are very near to losing or have recently lost. A one-way portal suggests the irreversible nature of extinction, with the skull of the [Pyrenean ibex](https://en.wikipedia.org/wiki/Pyrenean_ibex) beyond; attempts to revive the species through cloning have failed. The living species were ordered along an arc approaching the portal, in order of proximity to extinction.
 
-[The prototype, classified as charismatic metaflora rather than metafauna, can be seen here and below.](http://majorellearts.com/metafauna.html) Work is ongoing and delivery is planned for August 2022 in Black Rock City. The project budget is around $30K and all of the major work will be done by volunteers.
+Each animal was paired with a xylophone, with which participants could engage in respectful communication with the species. Moreover, each sculpture included an independent generative soundscape, with music &mdash; composed by Daniel Fennelly &mdash; that never repeated and changed according to the health of the animals. The animals would respond to music played by participants by varying the melody.
 
-![Nepenthes, our prototype](/assets/art/pitcher.jpeg)
+The project budget was around $30K and the major work was carried out by an all-volunteer team.
 
-I am the sound design team lead, my first foray into making music and ambiance for an art project, which involves collaborating with around two dozen other artists and managing a team of volunteers to make sure the system specifications are adequately defined and eventually executed upon.
+![Fly Ranch pyrg](/assets/art/pyrg.jpg)
+![Spotted owl](/assets/art/owl.jpg)
+![Houston toad](/assets/art/toad.jpg)
+![Simon's swallowtail butterfly](/assets/art/butterfly.jpg)
+![Pyrenean ibex](/assets/art/ibex.jpg)
+
+<iframe width="560" height="315" src="https://youtube.com/embed/eQVhj1QKVJQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Brainstorm (2018)
 
