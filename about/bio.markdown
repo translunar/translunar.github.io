@@ -20,6 +20,8 @@ In late 2019, Juno left Houston to work on guidance, navigation, and control for
 
 In 2020, they co-founded [Cislune](https://www.cislune.com) with Chelsea McMahon, Dr. Phil Metzger of UCF, and Erik Franks to work on challenging lunar engineering problems.
 
-In the same year, Juno founded Translunar LLC to consult on GN&C and space policy problems. Clients include Masten Space Systems.
+In the same year, Juno founded Translunar LLC to consult on GN&C and space policy problems. Clients included Masten Space Systems. They also worked on orbit determination and computer vision problems during this time.
+
+In 2022, [Charm Industrial](https://www.charmindustrial.com) hired Juno to write a custom automation system for their pyrolysis, gasification, and iron-making processes.
 
 In their free time, Juno makes art, plays the piano, and contributes time to the open source [Phase 4 radio project](https://www.phase4radio.org). They have been learning RF engineering and how to use a laser cutter, and are currently building a [theramin](https://en.wikipedia.org/wiki/Theremin). They are also a "green dot" in the [Black Rock Rangers](https://rangers.burningman.org), providing mental health first aid to the citizens of Black Rock City, and are [FEMA ICS-100 certified](https://training.fema.gov/is/courseoverview.aspx?code=is-100.c).
