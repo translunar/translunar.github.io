@@ -20,7 +20,9 @@ permalink: /research/
 
 ### Memos and Technical Reports
 
-* **Woods** (2021). An engineer's history of US and multilateral export controls. OLF-ENG-2021-01, Open Lunar Foundation, San Francisco, CA. _Please email me and ask for a copy. I'm currently seeking reviewers._
+* **Woods**, McMahon (2021). [Open source, open standards, and collective invention in the space industry](/assets/research/openness.pdf). OLF-ENG-2021-02, Open Lunar Foundation, San Francisco, CA.
+
+* **Woods** (2021). [An engineer's history of US and multilateral export controls](/assets/research/export.pdf). OLF-ENG-2021-01, Open Lunar Foundation, San Francisco, CA.
 
 * **Woods** (2020). [Concepts in lunar positioning, navigation, and timing](/assets/research/lunar_PNT_concepts.pdf). Open Lunar Foundation, San Francisco, CA. _Work in progress, which I update from time to time, without any intention of ever finishing it._
 
