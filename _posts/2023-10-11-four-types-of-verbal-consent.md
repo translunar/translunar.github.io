@@ -20,7 +20,8 @@ There's a great mnemonic which outlines some basic properties of consent: [FRIES
 
 First, it's important to note that each of us goes about getting consent in different ways depending on the context, and that this framework is primarily descriptive rather than prescriptive. Hopefully by the time you finish reading this, you'll feel empowered to make your own prescriptions with regards to how other people obtain your consent.
 
-| Class example                   | Enthusiastic | Affirmative | No Means No | Token No
+|                                 | <th colspan=4>Meaning</th>
+| Class example or statement      | Enthusiastic | Affirmative | No Means No | Token No
 |---------------------------------|--------------|-------------|-------------|----------
 |"Hell yes!", "yeah!"             |Yes           |Yes          |Yes          |Yes
 |"Yeah," "sure," "okay"           |No            |Yes          |Yes          |Yes
