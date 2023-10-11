@@ -14,14 +14,16 @@ I'll also mention that I developed these ideas from material in Ranger Belmont's
 
 ## Some general principles
 
-There's a great mnemonic which outlines some basic properties of consent: [FRIES](https://www.plannedparenthood.org/learn/relationships/sexual-consent) (freely given, reversible, informed, enthusiastic, and specific). This mnemonic definitely applies to sexual consent, but this post is about all of the ways people get consent in a variety of contexts, not strictly sexual. It's hard for consent to a handshake to be reversible because it happens so quickly, though we would certainly expect someone with a cold to inform us before shaking hands, to not coerce us into a handshake, and to not expect the handshake to automatically lead to other things.
+There are a couple of useful mnemonics which outline some basic properties of consent: [CRISP and FRIES](https://www.idcprofessionals.com/blog/defining-consent-from-fries-to-crisp). FRIES stands for freely given, reversible, informed, enthusiastic, and specific. CRISP is considered, reversible, informed, specific, participatory. For reasons that I discuss in this article, CRISP may be more universally applicable. Both are designed for use in the context of sexual intimacy.
+
+This post, however, is about all of the ways people get consent in a variety of contexts, not strictly sexual. It's hard for consent to a handshake to be reversible because it happens so quickly, though we would certainly expect someone with a cold to inform us before shaking hands, to not coerce us into a handshake, and to not expect the handshake to automatically lead to other things.
 
 ## Types of consent
 
 First, it's important to note that each of us goes about getting consent in different ways depending on the context, and that this framework is primarily descriptive rather than prescriptive. Hopefully by the time you finish reading this, you'll feel empowered to make your own prescriptions with regards to how other people obtain your consent.
 
-|                                 | <th colspan=4>Meaning</th>
 | Class example or statement      | Enthusiastic | Affirmative | No Means No | Token No
+|                                 | meaning
 |---------------------------------|--------------|-------------|-------------|----------
 |"Hell yes!", "yeah!"             |Yes           |Yes          |Yes          |Yes
 |"Yeah," "sure," "okay"           |No            |Yes          |Yes          |Yes
