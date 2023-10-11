@@ -37,6 +37,8 @@ The astute reader will also note that a refusal in each framework is acquiescenc
 
 Moreover, the difference between "Yeah!" and "Yeah" is almost certainly entirely non-verbal. Most of us tell these apart in spoken language on the basis of tone of voice and facial expression. As I mentioned, not everyone can distinguish between these. Likewise, not everyone can distinguish between "No" and the much more adamant "No!" with an explanation point, because these too are conveyed non-verbally.
 
+Sometimes people express a preference for affirmative consent over enthusiastic consent on the basis of agency, as in, "I should have the agency to consent without enthusiasm," or "I should be able to agree to something without feeling enthusiastic about it."
+
 Finally, it's essential to understand that almost every individual will find themself using each of these in different contexts. To illustrate, a very short story:
 
 > George goes to a party, and Kye asks him if they can kiss him. Kye’s really hot and cool, so George says, “Fuck yes!” which clearly means yes.
