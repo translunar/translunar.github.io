@@ -55,7 +55,7 @@ Even _token no_ arguably has a place in those environments where women are not a
 
 To be clear, I don't advise participating in a society where anyone must rely on a token no for plausible deniability, but not all of us have the luxury of a choice, and leaving can mean losing access to one's entire life, livelihood, family, and community.
 
-![Cast out, by Anton Robert Leinweber; a thumbnail image of two angels casting Adam and Eve out of the Garden of Eden.](/images/cast_out.jpg)
+![Cast out, by Anton Robert Leinweber; a thumbnail image of two angels casting Adam and Eve out of the Garden of Eden.](/assets/images/cast_out.jpg)
 
 To pile onto [the extremely fraught debate](https://www.salon.com/2012/12/10/is_baby_its_cold_outside_a_date_rape_anthem/) surrounding the song, _Baby it's cold outside_, written by Frank Loesser in 1944, let's consider the lyrics:
 
