@@ -29,6 +29,14 @@ github_username:  translunar
 linkedin_username: translunar
 google_analytics: G-XZ41M2WVVF
 
+# Permalink settings:
+defaults:
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      permalink: "/blog/:year/:month/:day/:title/"
+
 # Build settings
 theme: minima
 plugins:
