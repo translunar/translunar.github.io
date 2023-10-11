@@ -18,9 +18,9 @@ I begin by asking the client what their goals are. We discuss the variety of med
 
 I charge coaching clients a sliding scale fee. My standard rate is $300 for a 50-minute appointment, which includes any follow-up research that might be needed. If that feels like a lot to you, reach out! If $300 feels like a lot, it's a good indicator that you are eligible to pay less.
 
-## Joining my practice
+## How to begin
 
-If you are interested in joining my coaching practice, start by setting up a free twenty-minute screening call with me below.
+If you are interested in coaching, start by setting up a free twenty-minute screening call with me below.
 
 ## Useful links
 
