@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: post
 title: Four types of verbal consent
 ---
 
-# Background
+## Background
 
 One of my many roles is teaching people about consent. We like to think that obtaining consent is a straightforward process, but all human interactions are inherently complicated. There are non-verbal cues, ways we touch each other, facial expressions, tones of voice, and so on. Each of these can produce confusion, particularly for people with disabilities that inhibit their ability to detect facial expressions or vocal nuances. And for reasons that I discuss momentarily, certain people have figured out how to manipulate these systems to intentionally produce misunderstandings.
 
@@ -11,39 +11,18 @@ I will save most non-verbal consent for another article. It's a complex topic, a
 
 I'll also mention that I developed these ideas from material in Ranger Belmont's green dot training a few years ago. As context, green dot rangers are the people that provide mental health first response in Black Rock City. Belmont is the first person I've seen break things down this way, but he's never written any of it down publicly, and my own ideas have evolved since learning about his framework.
 
-# Types of consent
+## Types of consent
 
 First, it's important to note that each of us goes about getting consent in different ways depending on the context, and that this framework is primarily descriptive rather than prescriptive. Hopefully by the time you finish reading this, you'll feel empowered to make your own prescriptions with regards to how other people obtain your consent.
 
-<table>
- <tr>
-  <th>Class example</th>
-  <th>Enthusiastic</th>
-  <th>Affirmative</th>
-  <th>No Means No</th>
-  <th>Token No</th>
- </tr>
- <tr>
-  <th>"Hell yes!", "yeah!"</td>
-  <td>Yes</td><td>Yes</td><td>Yes</td><td>Yes</td>
- </tr>
- <tr>
-  <th>"Yeah," "sure," "okay"</th>
-  <td>No</td><td>Yes</td><td>Yes</td><td>Yes</td>
- </tr>
- 
- <tr>
-  <th>"No", "Nah"</th>
-  <td>No</td><td>No</td><td>Yes</td><td>Yes</td>
- </tr>
- 
- <tr>
-  <th>"No!", "Leave me the fuck alone!"</th>
-  <td>No</td><td>No</td><td>No</td><td>Yes</td>
- </tr>
-</table>
+| Class example | Enthusiastic | Affirmative | No Means No | Token No
+|---------------|--------------|-------------|-------------|----------
+|"Hell yes!", "yeah!"|Yes|Yes|Yes|Yes
+|"Yeah," "sure," "okay"|No|Yes|Yes|Yes
+|"No", "Nah"|No|No|Yes|Yes
+|"No!", "Leave me the fuck alone!"|No|No|No|Yes
 
-The table header describes the four general ways we go about obtaining verbal consent in different contexts. Depending on the circumstances, we may expect people to opt in (enthusiastic, affirmative) or opt out (no means no, token no). The left-hand column gives a few examples. The cells show whether each example usually means yes or no in each framework. Clearly, it's still possible to introduce ambiguity with non-verbal cues; it's possible to imagine scenarios where even a "Leave me the fuck alone" is actually a playful yes, and herein lies one of the challenges of using the _token no_ framework, and why in some groups people have <a href="https://dictionary.cambridge.org/dictionary/english/safe-word">safe words</a> ("Pineapple! PINEAPPLE!").
+The table header describes the four general ways we go about obtaining verbal consent in different contexts. Depending on the circumstances, we may expect people to opt in (enthusiastic, affirmative) or opt out (no means no, token no). The left-hand column gives a few examples. The cells show whether each example usually means yes or no in each framework. Clearly, it's still possible to introduce ambiguity with non-verbal cues; it's possible to imagine scenarios where even a "Leave me the fuck alone" is actually a playful yes, and herein lies one of the challenges of using the _token no_ framework, and why in some groups people have [safe words](https://dictionary.cambridge.org/dictionary/english/safe-word) ("Pineapple! PINEAPPLE!").
 
 The astute reader will also note that a refusal in each framework is acquiescence in the one to its right. For example, if I say "Sure," someone using enthusiastic consent might hear a no, but someone using affirmative consent will undoubtedly hear a yes. Likewise, if I say nothing using an affirmative consent framework (a refusal), someone using an opt-out framework may interpret agreement. And finally, if someone says no in _no means no_, a clear refusal, a person using _token no_ may believe they received consent.
 
@@ -67,7 +46,7 @@ Sometimes, an individual has already consented to certain things, like following
 
 Members of Gen X may feel familiarity with _no means no_, which aimed to give women (and others) agency to refuse in a western society which respected refusals even less than today's world. However, many millennials would argue that people (and especially people toward the femme side of the spectrum) have been conditioned not to offer verbal refusals even when they don't want to consent, and that affirmative or enthusiastic consent is preferable.
 
-## Definitely not a defense of _token no_
+### Definitely not a defense of _token no_
 
 Even _token no_ arguably has a place in those environments where women are not afforded the agency to say yes. Consider a society in which femmes will lose social status, or be cast out or even killed for having consensual sex (so-called "slut shaming"). The use of _token no_ offers the woman an insurance policy in the case of a partner who kisses and tells: "I said no," she might say, "but he did it anyway."
 
@@ -143,7 +122,7 @@ Courtesy of Dorry, here are the lyrics:
 >
 > And baby, consent is right.
 
-# Manipulation and misunderstanding
+## Manipulation and misunderstanding
 
 The downside of having four frameworks for obtaining consent is that two parties to a negotiation may be using two adjacent frameworks. In the best case, someone is new to a social group, or is slightly older, and does not realize enthusiastic affirmation is needed for a hug. Some people call this a _consent accident_, and that it is an accident doesn't make the violation feel any better, particularly when sex is involved. I prefer to avoid this term because it may minimize the experiences of survivors.
 
@@ -153,7 +132,7 @@ The fact that laws are different even between states in the U.S. confuses the is
 
 When one is occupying the role of community steward, I recommend watching out for people who have multiple such so-called misunderstandings. "Fool me once, shame on you. Fool me twice, shame on me."
 
-# Blanket consent, pre-existing relationships, and flirting
+## Blanket consent, pre-existing relationships, and flirting
 
 Occasionally, I hear people new to a community express confusion regarding an explicit opt-in requirement despite some people present at community events seeming to rely on opt-out. "I saw people hugging without asking first," is the common objection. When teaching people about consent, I work to emphasize that pre-existing relationships may supersede community agreements around consent expectations.
 
@@ -171,7 +150,7 @@ I hear millennials occasionally complain that opt-in consent takes the fun out o
 
 In _The Art of Gathering_, Priya Parker recommends that hosts of a space protect their guests, but also that they don't become too authoritarian. Protecting the guests creates an environment where people feel safe to participate fully. With consent, protection may consist only of ensuring that guests understand what is expected of them. Clarity prevents misunderstandings and also makes it easier to tell when a violation is intentional.
 
-# Community standards: an example
+## Community standards: an example
 
 Earlier in this article, I promised not to prescribe. I will, however, describe the framework I teach at interactive theater parties in the vicinity of the San Francisco Bay Area. These events are particularly complicated for a number of reasons.
 
@@ -186,7 +165,7 @@ The framework I use can be simplified into a few bullet points:
 
 We also require art pieces that involve sexuality, nudity, or other things people might find triggering to go through a separate coordinator who discusses additional responsibilities with these projects.
 
-# Conclusion
+## Conclusion
 
 My goal in this article was to provide a description of the various ways people obtain consent. It is especially important to me that people not interpret these descriptions as endorsement of any particular framework. It is possible to use any of these strategies in a healthy context, and it is also possible to use each of these unhealthfully. Much comes down to intent.
 
