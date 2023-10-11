@@ -8,13 +8,34 @@ permalink: /engineering/
 
 # Hi, I'm Juno Woods, PhD.
 
-I have done spacecraft navigation (state estimation), and mission design, with a focus on lunar missions, and dabble in space settlement policy. **I believe firmly that we cannot solve our environmental problems without moving heavy industry into space, which requires a sustained presence on the Moon.**
+My main interest is in projects related to existential risk: space settlement, climate tech, public safety and national security.
+
+I have a machine learning background, and I sell tried and true, evidence-based techniques. People are promising to use large language models like ChatGPT to re-invent life as we know it. LLMs and other generative models are fascinating, but we are at the very beginning of our journey to understand these technologies. **I spend a lot of time thinking not only about the technical aspects of AI, but also of the policy implications.**
+
+I have worked extensively on spacecraft navigation (state estimation), and mission design, with a focus on lunar missions, and dabble in space settlement policy. **I believe firmly that we cannot solve our environmental problems without moving heavy industry into space, which requires a sustained presence on the Moon.**
 
 I have also worked in climate tech, automating industrial systems.
 
 I perform engineering work on a contract basis, but am open to full-time opportunities as well. Please do reach out if you're interested in hiring Translunar LLC. My CV, which includes my email address, is linked in the upper right-hand corner.
 
 Below are some of the services I provide:
+
+## Machine Learning
+
+* Design computer vision systems.
+* Prompt, fine-tune, and unit test large language models (LLMs).
+* Build question and answer systems using LLMs and langchain.
+* Design expert recommendation systems.
+* Prototype informatics pipelines.
+* Validate models using techniques like cross-validation and bootstrapping.
+* Build Bayesian models.
+* Study instrumental goals of artificially intelligent agents and artificial life.
+
+## Coding and math
+
+* Derive mathematical models.
+* Prototype models in Python and Matlab/Octave, and optimize them in C/C++ and other compiled languages.
+* Build simulations of physical, chemical, and biological systems.
 
 ## Aerospace
 
@@ -35,15 +56,10 @@ Below are some of the services I provide:
 * Understand guidance algorithms for planetary landing.
 * Develop a PID controller and corresponding plant model.
 * Design a state machine for moving a system through an automation.
+* Design hardware-in-the-loop simulations.
+* Derive and implement sensor models and sensor simulators.
 
 _I do not work on any weapons systems._
-
-## Machine Learning
-
-* Design computer vision systems.
-* Prompt and fine-tune large language models.
-* Design expert recommendation systems.
-* Prototype informatics pipelines.
 
 I'm [non-binary](https://transequality.org/issues/resources/understanding-non-binary-people-how-to-be-respectful-and-supportive) and my pronouns are they/them. I find that, in the aerospace industry, folks don't talk about gender or pronouns much. If you have questions, [MyPronouns.org](https://www.mypronouns.org) is a useful resource &mdash; or you can just ask me.
 
