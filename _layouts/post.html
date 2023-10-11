@@ -5,6 +5,7 @@ layout: default
 <div class="post">
   {%- if page.title -%}
     <h1 class="page-heading">{{ page.title }}</h1>
+    <p class="byline">{{ page.author }} | {{ page.date | date: "%B %d, %Y" }} | <a href="/blog/">blog home</a></p>
   {%- endif -%}
 
   {{ content }}

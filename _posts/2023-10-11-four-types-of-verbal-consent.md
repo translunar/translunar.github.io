@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Four types of verbal consent
+author: Juno
 ---
 
 ## Background
