@@ -100,11 +100,11 @@ To pile onto [the extremely fraught debate](https://www.salon.com/2012/12/10/is_
 
 The female singer never actually says no; the closest she gets is to say she ought to say no, and then says, "At least I'm gonna say that I tried." If we're using enthuasiastic or affirmative consent, the dude is being pressurey and gross. But if they live in a society where pre-marital sleepovers are unacceptable, and she really wants to sleep over, one might imagine that this is how she goes about negotiating such an arrangement. One might also hope that the male performer of the song is not getting between the female performer and the exit.
 
-As an exercise, I want to share with you a rewrite of this song by two friends of mine, Dorry Segev and Sommer Gentry, in which the male performer expects an explicit opt-in. This song was performed at Lindy Focus XV, a dance event in Asheville, North Carolina, every New Year's Eve week.
+As an exercise, I want to share with you a rewrite of this song which changes it from _token no_ to _affirmative_ consent by two friends of mine, Dorry Segev and Sommer Gentry. In this version, the male performer expects an explicit opt-in. This song was performed at Lindy Focus XV, a dance event in Asheville, North Carolina, every New Year's Eve week.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/6M37keaVXfw?si=hamtED0hDKkzJki7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-Courtesy of Dorry, here are the lyrics:
+Courtesy of Dorry, here are the lyrics to the opt-in version of the song:
 
 > I really can't stay (Baby it's cold outside)
 >
