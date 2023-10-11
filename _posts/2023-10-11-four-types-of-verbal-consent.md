@@ -23,7 +23,6 @@ This post, however, is about all of the ways people get consent in a variety of 
 First, it's important to note that each of us goes about getting consent in different ways depending on the context, and that this framework is primarily descriptive rather than prescriptive. Hopefully by the time you finish reading this, you'll feel empowered to make your own prescriptions with regards to how other people obtain your consent.
 
 | Class example or statement      | Enthusiastic | Affirmative | No Means No | Token No
-|                                 | meaning
 |---------------------------------|--------------|-------------|-------------|----------
 |"Hell yes!", "yeah!"             |Yes           |Yes          |Yes          |Yes
 |"Yeah," "sure," "okay"           |No            |Yes          |Yes          |Yes
