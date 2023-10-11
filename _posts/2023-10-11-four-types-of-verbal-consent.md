@@ -176,9 +176,8 @@ The complex relationships and presence of substances both make it necessary to b
 
 The framework I use can be simplified into a few bullet points:
 
-* Explicit verbal opt-in (people need to give a clear "yes" first, not a "maybe"): touching, performances involving sex or nudity in the same space, staring, photography of people, uploading of any photographs to social media.
+* Explicit verbal opt-in (people need to give a clear "yes" first, not a "maybe"): touching, performances involving sex or nudity in the same space, staring, photography of people, uploading of any photographs to social media. FRIES (see above), because it's familiar to most people.
 * Explicit verbal opt-out (stop if someone asks you to stop): performances without sex or nudity, trying to talk to someone.
-* FRIES (see above).
 
 We also require art pieces that involve sexuality, nudity, or other things people might find triggering to go through a separate coordinator who discusses additional responsibilities with these projects.
 
