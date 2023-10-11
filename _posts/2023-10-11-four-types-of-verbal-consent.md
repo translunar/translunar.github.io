@@ -4,13 +4,15 @@ title: Four types of verbal consent
 author: Juno
 ---
 
-## Background
-
 One of my many roles is teaching people about consent. We like to think that obtaining consent is a straightforward process, but all human interactions are inherently complicated. There are non-verbal cues, ways we touch each other, facial expressions, tones of voice, and so on. Each of these can produce confusion, particularly for people with disabilities that inhibit their ability to detect facial expressions or vocal nuances. And for reasons that I discuss momentarily, certain people have figured out how to manipulate these systems to intentionally produce misunderstandings.
 
 I will save most non-verbal consent for another article. It's a complex topic, and verbal consent is already complicated. The only non-verbal cue I'll include here is enthusiasm because it's so commonly prescribed in certain contexts.
 
 I'll also mention that I developed these ideas from material in Ranger Belmont's green dot training a few years ago. As context, green dot rangers are the people that provide mental health first response in Black Rock City. Belmont is the first person I've seen break things down this way, but he's never written any of it down publicly, and my own ideas have evolved since learning about his framework.
+
+## Some general principles
+
+There's a great mnemonic which outlines some basic properties of consent: [FRIES](https://www.plannedparenthood.org/learn/relationships/sexual-consent) (freely given, reversible, informed, enthusiastic, and specific). This mnemonic definitely applies to sexual consent, but this post is about all of the ways people get consent in a variety of contexts, not strictly sexual. It's hard for consent to a handshake to be reversible because it happens so quickly, though we would certainly expect someone with a cold to inform us before shaking hands, to not coerce us into a handshake, and to not expect the handshake to automatically lead to other things.
 
 ## Types of consent
 
@@ -49,11 +51,13 @@ Members of Gen X may feel familiarity with _no means no_, which aimed to give wo
 
 ### Definitely not a defense of _token no_
 
-Even _token no_ arguably has a place in those environments where women are not afforded the agency to say yes. Consider a society in which femmes will lose social status, or be cast out or even killed for having consensual sex (so-called "slut shaming"). The use of _token no_ offers the woman an insurance policy in the case of a partner who kisses and tells: "I said no," she might say, "but he did it anyway."
+Even _token no_ arguably has a place in those environments where women are not afforded the agency to say yes. Consider a society in which femmes will lose social status, or be cast out or even killed for having consensual sex (e.g. ["slut shaming"](https://en.wikipedia.org/wiki/Slut-shaming)). The use of _token no_ offers the woman an insurance policy in the case of a partner who kisses and tells: "I said no," she might say, "but he did it anyway."
 
-To be clear, I don't advise participating in a society where anyone must rely on a token no for plausible deniability, but not all of us have the luxury of a choice.
+To be clear, I don't advise participating in a society where anyone must rely on a token no for plausible deniability, but not all of us have the luxury of a choice, and leaving can mean losing access to one's entire life, livelihood, family, and community.
 
-To pile onto the extremely fraught debate surrounding the song, _Baby it's cold outside_, written by Frank Loesser in 1944, let's consider the lyrics:
+![Cast out, by Anton Robert Leinweber; a thumbnail image of two angels casting Adam and Eve out of the Garden of Eden.](/images/cast_out.jpg)
+
+To pile onto [the extremely fraught debate](https://www.salon.com/2012/12/10/is_baby_its_cold_outside_a_date_rape_anthem/) surrounding the song, _Baby it's cold outside_, written by Frank Loesser in 1944, let's consider the lyrics:
 
 >I really can't stay (But baby it's cold outside)
 >
@@ -161,8 +165,9 @@ The complex relationships and presence of substances both make it necessary to b
 
 The framework I use can be simplified into a few bullet points:
 
-* Explicit opt-in (people need to give a clear "yes" first, not a "maybe"): touching, performances involving sex or nudity in the same space, staring, photography of people, uploading of any photographs to social media.
-* Explicit opt-out (stop if someone asks you to stop): performances without sex or nudity.
+* Explicit verbal opt-in (people need to give a clear "yes" first, not a "maybe"): touching, performances involving sex or nudity in the same space, staring, photography of people, uploading of any photographs to social media.
+* Explicit verbal opt-out (stop if someone asks you to stop): performances without sex or nudity, trying to talk to someone.
+* FRIES (see above).
 
 We also require art pieces that involve sexuality, nudity, or other things people might find triggering to go through a separate coordinator who discusses additional responsibilities with these projects.
 
