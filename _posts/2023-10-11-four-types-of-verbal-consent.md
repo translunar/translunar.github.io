@@ -82,7 +82,7 @@ To pile onto the extremely fraught debate surrounding the song, _Baby it's cold 
 >
 >At least I'm gonna say that I tried (Baby make my conscious your guide)
 
-The female singer never actually says no; the closest she gets is to say she ought to say no, and then says, "At least I'm gonna say that I tried." If we're using enthuasiastic or affirmative consent, the dude is being pressurey and gross. But if they live in a society where pre-marital sleepovers are unacceptable, and she really wants to sleep over, one might imagine that this is how she goes about agreeing to such an arrangement. One might also hope that the male performer of the song is not getting between the female performer and the exit.
+The female singer never actually says no; the closest she gets is to say she ought to say no, and then says, "At least I'm gonna say that I tried." If we're using enthuasiastic or affirmative consent, the dude is being pressurey and gross. But if they live in a society where pre-marital sleepovers are unacceptable, and she really wants to sleep over, one might imagine that this is how she goes about negotiating such an arrangement. One might also hope that the male performer of the song is not getting between the female performer and the exit.
 
 As an exercise, I want to share with you a rewrite of this song by two friends of mine, Dorry Segev and Sommer Gentry, in which the male performer expects an explicit opt-in. This song was performed at Lindy Focus XV, a dance event in Asheville, North Carolina, every New Year's Eve week.
 
