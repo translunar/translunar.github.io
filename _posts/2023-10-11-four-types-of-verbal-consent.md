@@ -2,6 +2,7 @@
 layout: post
 title: Four types of verbal consent
 author: Juno
+image: /assets/images/cast_out.jpg
 ---
 
 One of my many roles is teaching people about consent. We like to think that obtaining consent is a straightforward process, but all human interactions are inherently complicated. There are non-verbal cues, ways we touch each other, facial expressions, tones of voice, and so on. Each of these can produce confusion, particularly for people with disabilities that inhibit their ability to detect facial expressions or vocal nuances. And as I discuss in this article, certain people have figured out how to manipulate these systems to intentionally produce misunderstandings.
@@ -31,7 +32,7 @@ The table header describes the four general ways we go about obtaining verbal co
 
  Depending on the circumstances, we may expect people to opt in (_enthusiastic_, _affirmative_) or opt out (_no means no_, _token no_).
  
- Clearly, it's still possible to introduce ambiguity with non-verbal cues; it's possible to imagine scenarios where even a "Leave me the fuck alone!" is actually a playful yes, and herein lies one of the challenges of using the _token no_ framework, and why in some groups people have [safe words](https://dictionary.cambridge.org/dictionary/english/safe-word) ("Pineapple! PINEAPPLE!").
+ Clearly, it's still possible to introduce ambiguity with non-verbal cues; it's possible to imagine scenarios where even a "Leave me the fuck alone!" is actually a playful yes, and herein lies one of the challenges of using the _token no_ framework, and why in some contexts people have [safe words](https://dictionary.cambridge.org/dictionary/english/safe-word) ("Pineapple! PINEAPPLE!").
 
 The astute reader will also note that a refusal in each framework is acquiescence in the one to its right. For example, if I say "Sure," someone using enthusiastic consent might hear a no, but someone using affirmative consent will undoubtedly hear a yes. Likewise, if I say nothing using an affirmative consent framework (a refusal), someone using an opt-out framework may interpret agreement. And finally, if someone says no in _no means no_, a clear refusal, a person using _token no_ may believe they received consent.
 

@@ -6,3 +6,10 @@
 {% endcomment %}
 
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+
+<!-- Open Graph tags -->
+<meta property="og:image" content="{{ site.url }}{{ page.image }}">
+
+<!-- Twitter Card tags (assuming you want to use a summary card with an image) -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
