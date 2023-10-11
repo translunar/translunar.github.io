@@ -19,14 +19,19 @@ There's a great mnemonic which outlines some basic properties of consent: [FRIES
 
 First, it's important to note that each of us goes about getting consent in different ways depending on the context, and that this framework is primarily descriptive rather than prescriptive. Hopefully by the time you finish reading this, you'll feel empowered to make your own prescriptions with regards to how other people obtain your consent.
 
-| Class example | Enthusiastic | Affirmative | No Means No | Token No
-|---------------|--------------|-------------|-------------|----------
-|"Hell yes!", "yeah!"|Yes|Yes|Yes|Yes
-|"Yeah," "sure," "okay"|No|Yes|Yes|Yes
-|"No", "Nah"|No|No|Yes|Yes
-|"No!", "Leave me the fuck alone!"|No|No|No|Yes
+| Class example                   | Enthusiastic | Affirmative | No Means No | Token No
+|---------------------------------|--------------|-------------|-------------|----------
+|"Hell yes!", "yeah!"             |Yes           |Yes          |Yes          |Yes
+|"Yeah," "sure," "okay"           |No            |Yes          |Yes          |Yes
+|"Maybe"                          |No            |No           |Yes?         |Yes?
+|"No", "I can't tonight"          |No            |No           |No           |Yes?
+|"No!", "Leave me the fuck alone!"|No            |No           |No           |No?
 
-The table header describes the four general ways we go about obtaining verbal consent in different contexts. Depending on the circumstances, we may expect people to opt in (enthusiastic, affirmative) or opt out (no means no, token no). The left-hand column gives a few examples. The cells show whether each example usually means yes or no in each framework. Clearly, it's still possible to introduce ambiguity with non-verbal cues; it's possible to imagine scenarios where even a "Leave me the fuck alone" is actually a playful yes, and herein lies one of the challenges of using the _token no_ framework, and why in some groups people have [safe words](https://dictionary.cambridge.org/dictionary/english/safe-word) ("Pineapple! PINEAPPLE!").
+The table header describes the four general ways we go about obtaining verbal consent in different contexts. The left column gives examples of responses people might give. The cells aim to show how each response might be interpreted depending on the framework people use.
+
+ Depending on the circumstances, we may expect people to opt in (_enthusiastic_, _affirmative_) or opt out (_no means no_, _token no_).
+ 
+ Clearly, it's still possible to introduce ambiguity with non-verbal cues; it's possible to imagine scenarios where even a "Leave me the fuck alone!" is actually a playful yes, and herein lies one of the challenges of using the _token no_ framework, and why in some groups people have [safe words](https://dictionary.cambridge.org/dictionary/english/safe-word) ("Pineapple! PINEAPPLE!").
 
 The astute reader will also note that a refusal in each framework is acquiescence in the one to its right. For example, if I say "Sure," someone using enthusiastic consent might hear a no, but someone using affirmative consent will undoubtedly hear a yes. Likewise, if I say nothing using an affirmative consent framework (a refusal), someone using an opt-out framework may interpret agreement. And finally, if someone says no in _no means no_, a clear refusal, a person using _token no_ may believe they received consent.
 
