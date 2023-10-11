@@ -28,6 +28,8 @@ twitter_username: SpaceJuno
 github_username:  translunar
 linkedin_username: translunar
 google_analytics: G-XZ41M2WVVF
+show_excerpts: True
+excerpt_seperator: "<!--more-->"
 
 # Permalink settings:
 defaults:

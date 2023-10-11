@@ -4,7 +4,8 @@ title: Four types of verbal consent
 author: Juno
 ---
 
-One of my many roles is teaching people about consent. We like to think that obtaining consent is a straightforward process, but all human interactions are inherently complicated. There are non-verbal cues, ways we touch each other, facial expressions, tones of voice, and so on. Each of these can produce confusion, particularly for people with disabilities that inhibit their ability to detect facial expressions or vocal nuances. And for reasons that I discuss momentarily, certain people have figured out how to manipulate these systems to intentionally produce misunderstandings.
+One of my many roles is teaching people about consent. We like to think that obtaining consent is a straightforward process, but all human interactions are inherently complicated. There are non-verbal cues, ways we touch each other, facial expressions, tones of voice, and so on. Each of these can produce confusion, particularly for people with disabilities that inhibit their ability to detect facial expressions or vocal nuances. And as I discuss in this article, certain people have figured out how to manipulate these systems to intentionally produce misunderstandings.
+<!--more-->
 
 I will save most non-verbal consent for another article. It's a complex topic, and verbal consent is already complicated. The only non-verbal cue I'll include here is enthusiasm because it's so commonly prescribed in certain contexts.
 
