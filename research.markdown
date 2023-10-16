@@ -20,6 +20,14 @@ permalink: /research/
 
 ### Memos and Technical Reports
 
+* **Woods** (2022). Design trade for the XL-1 autonomous flight manager. TLI-TM-2022-01, Masten Space Systems, Mojave, CA.
+
+* **Woods** (2022). Navigation filter design for XL-1. TLI-TM-2021-03, Masten Space Systems, Mojave, CA.
+
+* **Woods** (2021). The downrange constraint in Powered Explicit Guidance. TLI-TM-2021-02, Masten Space Systems, Mojave, CA.
+
+* **Woods** (2021). Risk of rock encounters at Haworth landing site. TLI-TM-2021-01, Masten Space Systems, Mojave, CA.
+
 * **Woods**, McMahon (2021). [Open source, open standards, and collective invention in the space industry](/assets/research/openness.pdf). OLF-ENG-2021-02, Open Lunar Foundation, San Francisco, CA.
 
 * **Woods** (2021). [An engineer's history of US and multilateral export controls](/assets/research/export.pdf). OLF-ENG-2021-01, Open Lunar Foundation, San Francisco, CA.
