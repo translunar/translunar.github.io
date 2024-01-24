@@ -10,6 +10,7 @@ coverage. Some of these are political, such as living in states like
 Florida, which are actively hostile to gender-affirming care. Many
 challenges are largely apolitical, or occur even in politically friendly
 states.
+<!--more-->
 
 For example, health insurer provider networks are terrible, and
 the wait for in-network surgeons is sometimes years long. Frequently,
@@ -23,9 +24,10 @@ I am not a lawyer, nor am I a health insurance billing specialist. Yet
 as a trans person who has sought gender-affirming care and moderates a
 few gender-affirming care-related Discords, I've observed a number of
 patterns.
-<!--more-->
 
-<img src="/assets/images/nonbinary_frustration.png" alt="An attractive genderqueer African-American, smartly dressed, with green hair, a septum piercing, and a goatee. He's sitting at a laptop, looking somewhat frustrated."/>
+![An attractive genderqueer African-American, smartly dressed, with green hair, a septum piercing, and a goatee. He's sitting at a laptop, looking somewhat frustrated.](/assets/images/nonbinary_frustration.png)
+
+<img src="/assets/images/nonbinary_frustration.png" alt="."/>
 
 It's impossible to provide a universal instruction manual,
 even within the United States, because:
