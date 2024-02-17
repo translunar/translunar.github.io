@@ -4,6 +4,8 @@ title: Research
 permalink: /research/
 ---
 
+This page is divided topically! Aerospace research is at the top, and biology is further down.
+
 ## Aerospace
 
 ### Peer-Reviewed Articles
