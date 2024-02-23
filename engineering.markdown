@@ -2,13 +2,14 @@
 layout: page
 title: Engineering
 permalink: /engineering/
+image: /assets/images/Odysseus.webp
 ---
-
-<img alt="Image of Earth from Odysseus, on its way to the Moon" src="/assets/images/Odysseus.webp" style="width: 50%" align="right" />
 
 # Hi, I'm Juno Woods, PhD.
 
 My main interest is in projects related to existential risk: space settlement, climate tech, public safety and national security, and artificial intelligence and machine learning.
+
+<img alt="Image of Earth from Odysseus, on its way to the Moon" src="/assets/images/Odysseus.webp" style="width: 50%" align="right" />
 
 My current claim to fame is that I bootstrapped the original mission design for Odysseus ([IM-1](https://www.intuitivemachines.com/im-1), the first privately owned lunar lander on the surface of the Moon. As the sole mission designer at Intuitive Machines during the mission's proposal phase, I produced the reference trajectories used for many of the early analyses. I performed many of these analyses myself as well, including the original selection of ground stations, the first attitude timeline and attitude control specs, specs for many of the sensors, landing hazard analyses, and so on. I'm an expert on the [Navigation Doppler LIDAR](https://www.nasa.gov/directorates/stmd/impact-story-navigation-doppler-lidar/), the sensor Odysseus relied upon for its landing after its laser altimeters failed.
 
