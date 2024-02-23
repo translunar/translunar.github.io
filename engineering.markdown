@@ -8,15 +8,17 @@ permalink: /engineering/
 
 # Hi, I'm Juno Woods, PhD.
 
-My main interest is in projects related to existential risk: space settlement, climate tech, public safety and national security.
+My main interest is in projects related to existential risk: space settlement, climate tech, public safety and national security, and artificial intelligence and machine learning.
 
-I have a machine learning background, and I sell tried and true, evidence-based techniques. People are promising to use large language models like ChatGPT to re-invent life as we know it. LLMs and other generative models are fascinating, but we are at the very beginning of our journey to understand these technologies. **I spend a lot of time thinking not only about the technical aspects of AI, but also of the policy implications.**
+My current claim to fame is that I bootstrapped the original mission design for Odysseus ([IM-1](https://www.intuitivemachines.com/im-1), the first privately owned lunar lander on the surface of the Moon. As the sole mission designer at Intuitive Machines during the mission's proposal phase, I produced the reference trajectories used for many of the early analyses. I performed many of these analyses myself as well, including the original selection of ground stations, the first attitude timeline and attitude control specs, specs for many of the sensors, landing hazard analyses, and so on. I'm an expert on the [Navigation Doppler LIDAR](https://www.nasa.gov/directorates/stmd/impact-story-navigation-doppler-lidar/), the sensor Odysseus relied upon for its landing after its laser altimeters failed.
 
-I have worked extensively on spacecraft navigation (state estimation), and mission design, with a focus on lunar missions, and dabble in space settlement policy. **I believe firmly that we cannot solve our environmental problems without moving heavy industry into space, which requires a sustained presence on the Moon.**
+I have worked extensively on spacecraft navigation (state estimation) and a little bit on guidance and control as well, and dabble in space settlement policy. In addition to working on NOVA-C, I worked on Moon Express' MX-1 briefly, as well as Masten's XL-1. **I believe firmly that we cannot solve our environmental problems without moving heavy industry into space, which requires a sustained presence on the Moon.**
+
+I have a machine learning background, and I spend a lot of time thinking about artificial intelligence. I've written and thought a fair bit about the relationship between AI and dual-use technology, particularly in aerospace and biotech.
 
 I have also worked in climate tech, automating industrial systems.
 
-I perform engineering work on a contract basis, but am open to full-time opportunities as well. Please do reach out if you're interested in hiring Translunar LLC. My CV, which includes my email address, is linked in the upper right-hand corner.
+I perform engineering work on a contract basis, but am open to full-time opportunities as well. Please do reach out if you're interested in hiring me. My CV, which includes my email address, is linked in the upper right-hand corner.
 
 Below are some of the services I provide:
 
@@ -60,7 +62,5 @@ Below are some of the services I provide:
 * Derive and implement sensor models and sensor simulators.
 
 _I do not work on any weapons systems._
-
-I'm [non-binary](https://transequality.org/issues/resources/understanding-non-binary-people-how-to-be-respectful-and-supportive) and my pronouns are they/them. I find that, in the aerospace industry, folks don't talk about gender or pronouns much. If you have questions, [MyPronouns.org](https://www.mypronouns.org) is a useful resource &mdash; or you can just ask me.
 
 
