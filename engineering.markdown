@@ -14,6 +14,8 @@ My current claim to fame is that I bootstrapped the original mission design for 
 
 I have worked extensively on spacecraft navigation (state estimation) and a little bit on guidance and control as well, and dabble in space settlement policy. In addition to working on NOVA-C, I worked on Moon Express' MX-1 briefly, as well as Masten's XL-1. **I believe firmly that we cannot solve our environmental problems without moving heavy industry into space, which requires a sustained presence on the Moon.**
 
+While I code very well in C++ and Python, I consider myself a mathematician first. If you want to see an example of numerical software of which I'm proud, I recommend looking at [Pyquat](https://github.com/translunar/pyquat), a Python 3 package for unit quaternions. These mathematical objects are used for attitude calculations in spacecraft, video games, robotics, and wearables. The back-end is in C to squeeze out as much speed as possible.
+
 I have a machine learning background, and I spend a lot of time thinking about artificial intelligence. I've written and thought a fair bit about the relationship between AI and dual-use technology, particularly in aerospace and biotech.
 
 I have also worked in climate tech, automating industrial systems.
