@@ -21,7 +21,7 @@
 title: "Translunar Industries"
 email: "juno@translunar.io"
 description: >- # this means to ignore newlines until "baseurl:"
-  Spacecraft GN&C, mission design, machine learning, art, and gender.
+  Spacecraft GN&C, mission design, machine learning, art, and policy.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.translunarindustries.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SpaceJuno
