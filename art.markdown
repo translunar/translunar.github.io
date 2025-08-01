@@ -12,7 +12,7 @@ Many are aware that a Tesla is the unit of magnetic flux density, and that like 
 
 After Tesla's CEO came out as a pro-apartheid troll and assisted Donald Trump in his attempt to disassemble American democracy, I decided the cars needed a re-brand.
 
-The new brand logo is that of electrical resistance, the Ohm (or Greek capital Omega), with style elements that evoke the original logo. This new branding is known as [Resistance Aesthetic](https://resistanceaesthetic.etsy.com). I partnered with a manufacturer in Shenzhen to cast these in zinc and powder coat them, and for a small fee, I free owners of these vehicles from Elon's now toxic brand.
+The new brand logo is that of electrical resistance, the Ohm (or Greek capital Omega), with style elements that evoke the original logo. This new branding is known as [Resistance Aesthetic](https://resistanceaesthetic.com). I partnered with a manufacturer in Shenzhen to cast these in zinc and powder coat them, and for a small fee, I free owners of these vehicles from Elon's now toxic brand.
 
 ![Resistance Aesthetic](/assets/art/red_badge_bright.png)
 
