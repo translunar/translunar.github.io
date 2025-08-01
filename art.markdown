@@ -4,11 +4,21 @@ title: Art
 permalink: /art/
 ---
 
-For fun, I teach myself new skills and use them to make art. I used to work with Starship Factory when I lived in Houston. Here in the Bay Area, I work with [Majorelle Arts](https://www.facebook.com/majorellearts/) and [Ardent Heavy Industries](http://www.ardentheavyindustries.com).
+For fun, I teach myself new skills and use them to make art. Here in the Bay Area, I work with [Majorelle Arts](https://majorellearts.com/) out of the [Ardent Heavy Industries](http://www.ardentheavyindustries.com) shop in East Oakland.
+
+# From Magnetism to Resistance (2025)
+
+Many are aware that a Tesla is the unit of magnetic flux density, and that like the car brand, it draws its name from inventor and futurist Nikola Tesla. The unit is abbreviated by a T, and the brand's stylized T logo was borrowed from the cross-section of an electric motor.
+
+After Tesla's CEO came out as a pro-apartheid troll and assisted Donald Trump in his attempt to disassemble American democracy, I decided the cars needed a re-brand.
+
+The new brand logo is that of electrical resistance, the Ohm (or Greek capital Omega), with style elements that evoke the original logo. This new branding is known as [Resistance Aesthetic](https://resistanceaesthetic.etsy.com). I partnered with a manufacturer in Shenzhen to cast these in zinc and powder coat them, and for a small fee, I free owners of these vehicles from Elon's now toxic brand.
+
+![Resistance Aesthetic](/assets/art/red_badge_bright.png)
 
 # Charismatic Metafauna (2021-22)
 
-My partner Amie and I proposed this project to [Majorelle Arts](https://www.majorellearts.com) last May, which in turn proposed it to Burning Man. Charismatic Metafauna received a Burning Man 2022 Honorarium.
+Together with my long-term collaborator Amie Hinds, I proposed this project to [Majorelle Arts](https://www.majorellearts.com) in May of 2021, which in turn proposed it to Burning Man. Charismatic Metafauna received a Burning Man 2022 Honorarium, under the wise direction of Gray Davidson.
 
 "The Charismatic Metafauna is a garden of endangered species. Reacting to nearby participants, the sculptures grow fearful and ‘die’ when disrespected. Drawn in by the garden’s beauty, [participants] must act as stewards of its health to be rewarded with the joy of its flourishing."
 

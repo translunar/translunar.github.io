@@ -15,7 +15,7 @@ My current claim to fame is that I bootstrapped the original mission design for 
 
 I have worked extensively on spacecraft navigation (state estimation) and a little bit on guidance and control as well, and dabble in space settlement policy. In addition to working on NOVA-C, I worked on Moon Express' MX-1 briefly, as well as Masten's XL-1. **I believe firmly that we cannot solve our environmental problems without moving heavy industry into space, which requires a sustained presence on the Moon.**
 
-While I code very well in C++ and Python, I consider myself a mathematician first. If you want to see an example of numerical software of which I'm proud, I recommend looking at [Pyquat](https://github.com/translunar/pyquat), a Python 3 package for unit quaternions. These mathematical objects are used for attitude calculations in spacecraft, video games, robotics, and wearables. The back-end is in C to squeeze out as much speed as possible.
+While I code very well in C++ and Python, I consider myself a mathematician first. If you want to see an example of numerical software of which I'm proud, I recommend looking at [Pyquat](https://github.com/translunar/pyquat), a Python 3 package for unit quaternions. In graduate school, I wrote the now-deprecated [NMatrix](https://github.com/SciRuby/nmatrix), which was at the time the Ruby equivalent of Numpy.
 
 <img alt="Image of a water-damaged notebook containing equations related to orbits" src="/assets/images/wet_notebook.jpg" style="width: 50%" align="left" />
 
@@ -23,7 +23,7 @@ I have a machine learning background, and I spend a lot of time thinking about a
 
 I have also worked in climate tech, automating industrial systems.
 
-I perform engineering work on a contract basis, but am open to full-time opportunities as well. Please do reach out if you're interested in hiring me. My CV, which includes my email address, is linked in the upper right-hand corner.
+These days, I work at a satellite communication startup.
 
 Below are some of the services I provide:
 

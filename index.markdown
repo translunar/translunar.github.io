@@ -18,5 +18,3 @@ title: Home
 
 * [Consulting for science, engineering, and policy](engineering)
 
-* [Gender coaching](coaching)
-
