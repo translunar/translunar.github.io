@@ -2,6 +2,7 @@
 layout: page
 title: Biography
 permalink: /about/bio/
+description: "Dr. Juno Woods is an aerospace engineer, computational biologist, pro-democracy activist, and artist. From lunar landing navigation to installation art."
 ---
 
 Juno Woods grew up on the border of Alexandria and Arlington, Virginia. A National Merit Scholar, she pursued a B.S. in computer science at Virginia Tech, minoring in mathematics, Russian language, and philosophy. During this time, Juno also earned her black belt in Tae Kwon Do, and taught it to hundreds of fellow students.

@@ -2,6 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
+description: "Publications and technical reports by Juno Woods in spacecraft guidance, navigation, & control (GN&C) and computational/systems biology (evolution)."
 ---
 
 This page is divided topically! Aerospace research is at the top, and biology is further down.

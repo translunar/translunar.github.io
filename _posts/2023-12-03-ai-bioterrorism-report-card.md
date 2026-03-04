@@ -2,6 +2,8 @@
 layout: post
 title: A call for a quantitative report card for AI bioterrorism threat models
 author: Juno
+description: "A proposal for a quantitative report card to evaluate how much LLMs like ChatGPT and Claude actually elevate bioterrorism risk across three threat models: technical, social engineering, and disinformation."
+tags: AI biosecurity policy risk
 ---
 
 Scientists and policymakers have expressed a great deal of concern recently about biosecurity risks posed by frontier artificial intelligence systems, especially large language models like ChatGPT and Claude. Yet these models also promise to accelerate many areas of work, including biotechnology.

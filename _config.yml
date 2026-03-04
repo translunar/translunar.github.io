@@ -21,7 +21,7 @@
 title: "Translunar Industries"
 email: "juno@translunar.io"
 description: >- # this means to ignore newlines until "baseurl:"
-  Spacecraft GN&C, mission design, machine learning, art, and policy.
+  Personal site of Juno Woods, PhD — aerospace engineer, ML practitioner, artist, and policy wonk working on existential risk: space, climate, and AI.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.translunarindustries.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SpaceJuno
@@ -29,7 +29,7 @@ github_username:  translunar
 linkedin_username: translunar
 google_analytics: G-XZ41M2WVVF
 show_excerpts: True
-excerpt_seperator: "<!--more-->"
+excerpt_separator: "<!--more-->"
 
 # Permalink settings:
 defaults:
@@ -43,6 +43,8 @@ defaults:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

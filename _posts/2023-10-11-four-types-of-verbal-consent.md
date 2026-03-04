@@ -3,6 +3,8 @@ layout: post
 title: Four types of verbal consent
 author: Juno
 image: /assets/images/cast_out.jpg
+description: "A framework for the four main types of verbal consent — enthusiastic, affirmative, no means no, and token no — and why understanding which one you're using (and which one the other person expects) actually matters."
+tags: safety communication
 ---
 
 One of my many roles is teaching people about consent. We like to think that obtaining consent is a straightforward process, but all human interactions are inherently complicated. There are non-verbal cues, ways we touch each other, facial expressions, tones of voice, and so on. Each of these can produce confusion, particularly for people with disabilities that inhibit their ability to detect facial expressions or vocal nuances. And as I discuss in this article, certain people have figured out how to manipulate these systems to intentionally produce misunderstandings.

@@ -2,6 +2,7 @@
 layout: page
 title: Media
 permalink: /about/media/
+description: "Press coverage of Juno Woods' work in aerospace and gun violence prevention, including the White House Champions of Change recognition."
 ---
 
 ## Science

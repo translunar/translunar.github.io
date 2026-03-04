@@ -3,6 +3,8 @@ layout: post
 title: Gender-affirming health insurance coverage how-to
 author: Juno
 image: /assets/images/nonbinary_frustration.png
+description: "A practical guide to getting gender-affirming care covered by health insurance in the US — prior authorization, network exceptions, letters of agreement, and how to file a complaint when your insurer stonewalls you."
+tags: trans healthcare insurance policy
 ---
 
 Trans people face a number of challenges in getting gender-affirming

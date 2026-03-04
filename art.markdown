@@ -2,6 +2,7 @@
 layout: page
 title: Art
 permalink: /art/
+description: "Art by Juno Woods: interactive installations, sculpture, and mixed media. Includes Charismatic Metafauna, a large-scale Burning Man piece about endangered species, and a project to re-brand Teslas."
 ---
 
 For fun, I teach myself new skills and use them to make art. Here in the Bay Area, I work with [Majorelle Arts](https://majorellearts.com/) out of the [Ardent Heavy Industries](http://www.ardentheavyindustries.com) shop in East Oakland.

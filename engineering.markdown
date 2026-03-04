@@ -3,6 +3,7 @@ layout: page
 title: Engineering
 permalink: /engineering/
 image: /assets/images/Odysseus.webp
+description: "Aerospace consulting in spacecraft navigation, mission design, Kalman filters, and trajectory design — plus ML and climate tech. I bootstrapped the mission design for Odysseus (IM-1), the first privately-owned lunar lander on the Moon."
 ---
 
 # Hi, I'm Juno Woods, PhD.
