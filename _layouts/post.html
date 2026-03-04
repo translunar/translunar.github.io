@@ -11,7 +11,15 @@ layout: default
     </div>
   {%- endif -%}
 
-  {{ content }}
+  {%- if page.toc -%}
+    <nav class="post-toc">
+      <p class="post-toc-heading">Contents</p>
+      {{ content | toc_only }}
+    </nav>
+    {{ content | inject_anchors }}
+  {%- else -%}
+    {{ content }}
+  {%- endif -%}
 
 <div id="disqus_thread"></div>
 <script>

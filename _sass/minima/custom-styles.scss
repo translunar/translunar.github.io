@@ -107,6 +107,51 @@ figcaption {
   letter-spacing: 0.02em;
 }
 
+// Table of contents
+.post-toc {
+  border: 1px solid $border-color-02;
+  border-left: 3px solid $brand-color;
+  padding: 1em 1.25em;
+  float: right;
+  width: 45%;
+  margin: 0 0 1.5em 2em;
+
+  @include media-query($on-palm) {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.5em 0;
+  }
+
+  .post-toc-heading {
+    font-size: 0.78rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $brand-color-light;
+    margin-bottom: 0.6em;
+    font-weight: 600;
+  }
+
+  ul {
+    margin: 0;
+    padding-left: 1em;
+    list-style: none;
+
+    li { margin-bottom: 0.25em; }
+
+    a {
+      color: rgba($text-color, 0.75);
+      font-size: 0.9rem;
+      &:hover { color: $link-hover-color; }
+    }
+
+    ul {
+      margin-top: 0.2em;
+      padding-left: 1em;
+      a { font-size: 0.85rem; }
+    }
+  }
+}
+
 // H2 section dividers within posts
 .post-content h2 {
   border-bottom: 1px solid $border-color-01;
