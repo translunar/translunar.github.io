@@ -17,6 +17,8 @@ After completing her dissertation, Dr. Woods chose West Virginia University's Ap
 
 In 2015, Juno retured to Houston to accept a job at [Intuitive Machines](http://www.intuitivemachines.com). There she worked on a variety of problems in state estimation, spacecraft navigation, and simulation, including Moon Express's MX-1 moon lander, IM's Universal Return Vehicle, and the Axiom commercial space station. Eventually, she worked on the navigation, trajectory, and mission design for IM's own lunar lander, NOVA-C, which later became [the first privately-owned lunar lander to soft land on the Moon](https://en.wikipedia.org/wiki/IM-1) (in February 2024).
 
+<img alt="A photograph of Juno and another person standing in the ruins of an Atlas F missile silo" src="/assets/images/atlas_f_silo.png" style="width:45%; float:right; margin: 0 0 1.5em 2em;" />
+
 In late 2019, Juno left Houston to work on guidance, navigation, and control for [Open Lunar Foundation](https://www.openlunar.org)'s series of spacecraft. Six months later, the COVID-19 pandemic led to the entire engineering team being laid off; Juno kept going to work, and eventually was re-hired as the Director of Engineering Research and Strategy. There she researched multilateral arms control regimes, collective invention, and open source as related to the space industry.
 
 In 2020, Juno founded Translunar LLC to consult on GN&C and space policy problems. Clients included Masten Space Systems and Astra Space. She also worked on orbit determination and computer vision problems during this time. Subsequently, she worked in carbon sequestration at Charm Industrial, and is now employed at Astranis Space Technologies.
