@@ -97,6 +97,21 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
+// Floating figures (text wraps around)
+figure.float-right {
+  float: right;
+  width: 50%;
+  margin: 0 0 1.5em 2em;
+
+  img { margin: 0; }
+
+  @include media-query($on-palm) {
+    float: none;
+    width: 100%;
+    margin: 0 0 1.5em 0;
+  }
+}
+
 // Figure captions
 figcaption {
   font-style: italic;
@@ -190,6 +205,23 @@ a:hover {
 
 .footer-col-wrapper {
   color: rgba($text-color, 0.5);
+}
+
+// Social links — keep icon and username on one line
+.social-media-list a {
+  white-space: nowrap;
+}
+
+// Footer column widths — widen social col to fit longer usernames
+// Default: 35 / 20 / 45  →  New: 30 / 32 / 38
+.footer-col-1 {
+  width: calc(30% - (#{$spacing-unit} / 2));
+}
+.footer-col-2 {
+  width: calc(32% - (#{$spacing-unit} / 2));
+}
+.footer-col-3 {
+  width: calc(38% - (#{$spacing-unit} / 2));
 }
 
 // Dark syntax highlighting (matches background)

@@ -7,6 +7,11 @@ tags: AI biosecurity policy risk
 ---
 
 Scientists and policymakers have expressed a great deal of concern recently about biosecurity risks posed by frontier artificial intelligence systems, especially large language models like ChatGPT and Claude. Yet these models also promise to accelerate many areas of work, including biotechnology.
+<!--more-->
+
+<figure class="float-right">
+<img src="/assets/images/jenga.png" alt="AI researchers playing Jenga, but the blocks at the top are in the wrong orientation — suggesting it isn't an ordinary game being played." />
+</figure>
 
 Fear of disease is visceral and the need for biosecurity well-founded, especially in the wake of the coronavirus pandemic. But our security strategies must avoid placing limitations on key advances such as mRNA vaccine research, epidemiological surveillance, and synthetic biology, or on more broadly applicable machine learning systems. 
 

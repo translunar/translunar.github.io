@@ -13,7 +13,7 @@ One of my many roles is teaching people about consent. We like to think that obt
 
 I will save most non-verbal consent for another article. It's a complex topic, and verbal consent is already complicated. The only non-verbal cue I'll include here is enthusiasm because it's so commonly prescribed in certain contexts.
 
-I'll also mention that I developed these ideas from material in Ranger Belmont's green dot training a few years ago. As context, green dot rangers are the people that provide mental health first response in Black Rock City. Belmont is the first person I've seen break things down this way, but he's never written any of it down publicly, and my own ideas have evolved since learning about his framework.
+I'll also mention that I developed these ideas from material in Ranger Belmont's green dot training a few years ago. As context, green dot rangers are the people that provide mental health first response in Black Rock City. Belmont is the first person I've seen break things down this way, but to my knowledge, he's never written any of it down publicly.
 
 ## Some general principles
 

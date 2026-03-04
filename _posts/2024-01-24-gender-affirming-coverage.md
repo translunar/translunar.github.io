@@ -29,7 +29,7 @@ few gender-affirming care-related Discords, I've observed a number of
 patterns.
 
 <figure>
-<img src="/assets/images/insurance_hoops.png" alt="A colorful stack of plastic hoops — getting gender-affirming care covered by insurance involves jumping through a lot of them." />
+<img src="/assets/images/insurance_hoops.png" alt="In the background, a woman casually leaning against a wall. In the foreground, many hoops." />
 <figcaption>Getting gender-affirming care covered involves a lot of jumping through hoops.</figcaption>
 </figure>
 
