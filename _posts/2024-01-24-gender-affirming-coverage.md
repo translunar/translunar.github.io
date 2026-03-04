@@ -2,7 +2,7 @@
 layout: post
 title: Gender-affirming health insurance coverage how-to
 author: Juno
-image: /assets/images/nonbinary_frustration.png
+image: /assets/images/insurance_hoops.png
 description: "A practical guide to getting gender-affirming care covered by health insurance in the US — prior authorization, network exceptions, letters of agreement, and how to file a complaint when your insurer stonewalls you."
 tags: gender-affirming healthcare insurance policy
 ---
@@ -27,7 +27,10 @@ as a trans person who has sought gender-affirming care and moderates a
 few gender-affirming care-related Discords, I've observed a number of
 patterns.
 
-![An attractive genderqueer African-American, smartly dressed, with green hair, a septum piercing, and a goatee. He's sitting at a laptop, looking somewhat frustrated.](/assets/images/nonbinary_frustration.png)
+<figure>
+<img src="/assets/images/insurance_hoops.png" alt="A colorful stack of plastic hoops — getting gender-affirming care covered by insurance involves jumping through a lot of them." />
+<figcaption>Getting gender-affirming care covered involves a lot of jumping through hoops.</figcaption>
+</figure>
 
 It's impossible to provide a universal instruction manual,
 even within the United States, because:

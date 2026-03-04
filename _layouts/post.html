@@ -4,10 +4,11 @@ layout: default
 
 <div class="post">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-    <p class="byline">{{ page.author }} | {{ page.date | date: "%B %d, %Y" }} | <a href="/blog/">blog home</a></p>
-    <hr/>
-    <br/>
+    <div class="post-header">
+      <p class="post-back-link"><a href="/blog/">← Blog</a></p>
+      <h1 class="page-heading">{{ page.title }}</h1>
+      <p class="post-meta">By {{ page.author }} &middot; {{ page.date | date: "%B %-d, %Y" }}</p>
+    </div>
   {%- endif -%}
 
   {{ content }}

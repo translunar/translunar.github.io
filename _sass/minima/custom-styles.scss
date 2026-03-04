@@ -11,10 +11,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-// Headings — bolder and tighter tracking
+// Headings — bolder, tighter tracking and line-height
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: -0.01em;
+  line-height: 1.2;
 }
 
 // Header — thin accent bar in brand color
@@ -47,12 +48,38 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-// Post meta — label style
-.post-meta {
-  color: $brand-color-light;
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
+// Post header block — wraps back link, title, meta
+.post-header {
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid $border-color-01;
+
+  .page-heading {
+    margin-bottom: 0.2em;
+  }
+}
+
+// Post back link — breadcrumb above title
+.post-back-link {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: $brand-color;
+  margin-bottom: 0.4em;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+}
+
+// Post meta — author · date line
+.post-meta {
+  color: rgba($text-color, 0.5);
+  font-size: 0.88rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 // Post list titles
@@ -68,6 +95,16 @@ h1, h2, h3, h4, h5, h6 {
 // Post title
 .post-title {
   font-weight: 700;
+}
+
+// Figure captions
+figcaption {
+  font-style: italic;
+  font-size: 0.82rem;
+  color: $brand-color-light;
+  text-align: center;
+  margin-top: 0.4em;
+  letter-spacing: 0.02em;
 }
 
 // H2 section dividers within posts
