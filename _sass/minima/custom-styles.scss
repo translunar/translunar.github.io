@@ -1,5 +1,10 @@
 // === TRANSLUNAR.IO — CUSTOM STYLES ===
 
+// Logo: invert black-on-transparent to white on dark background
+.site-title::before {
+  filter: invert(1);
+}
+
 // Smooth rendering on dark backgrounds
 body {
   -webkit-font-smoothing: antialiased;
