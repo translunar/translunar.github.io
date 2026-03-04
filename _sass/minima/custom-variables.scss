@@ -1,1 +1,38 @@
-// Placeholder to allow overriding predefined variables smoothly.
+// === TRANSLUNAR.IO — CORPORATE GOTH / SPACE OPERA PALETTE ===
+
+// Brand
+$brand-color:           #a87dc8;
+$brand-color-light:     #c9a0dc;
+$brand-color-dark:      #4a2870;
+
+// Base colors
+$site-title-color:      $brand-color-light;
+$text-color:            #e2ddf0;
+$background-color:      #0d0a14;
+$code-background-color: #13101c;
+
+// Links
+$link-base-color:       #c9a0dc;
+$link-visited-color:    #f4a7c0;
+$link-hover-color:      #f0e6ff;
+
+// Borders
+$border-color-01:       #2a2040;
+$border-color-02:       #3d3060;
+$border-color-03:       #6040a0;
+
+// Tables
+$table-text-color:      $text-color;
+$table-zebra-color:     #13101c;
+$table-header-bg-color: #1a1528;
+$table-header-border:   $border-color-01;
+$table-border-color:    $border-color-01;
+
+// Typography
+$base-font-family:      "Space Grotesk", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+$code-font-family:      "Space Mono", "Menlo", "Inconsolata", "Consolas", monospace;
+$base-font-size:        17px;
+$base-line-height:      1.75;
+
+// Layout
+$content-width:         860px;

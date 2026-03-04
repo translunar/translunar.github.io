@@ -1,2 +1,141 @@
-// Placeholder to allow defining custom styles that override everything else.
-// (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+// === TRANSLUNAR.IO — CUSTOM STYLES ===
+
+// Smooth rendering on dark backgrounds
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Headings — bolder and tighter tracking
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+// Header — thin accent bar in brand color
+.site-header {
+  border-top: 3px solid $brand-color;
+  border-bottom-color: $border-color-01;
+}
+
+// Site title
+.site-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+
+  &:hover {
+    text-decoration: none;
+    color: $link-hover-color;
+  }
+}
+
+// Nav links — small caps feel
+.site-nav .page-link {
+  font-size: 0.82rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: $brand-color-light;
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+}
+
+// Post meta — label style
+.post-meta {
+  color: $brand-color-light;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+// Post list titles
+.post-link {
+  font-weight: 600;
+
+  &:hover {
+    text-decoration: none;
+    color: $link-hover-color;
+  }
+}
+
+// Post title
+.post-title {
+  font-weight: 700;
+}
+
+// H2 section dividers within posts
+.post-content h2 {
+  border-bottom: 1px solid $border-color-01;
+  padding-bottom: 0.3em;
+}
+
+// Images centered in posts
+.post-content img {
+  display: block;
+  margin: 1.5em auto;
+  max-width: 100%;
+}
+
+// Blockquote — left accent line, not italic
+blockquote {
+  border-left: 3px solid $brand-color;
+  color: rgba($text-color, 0.72);
+  font-style: normal;
+
+  em, i {
+    font-style: italic;
+  }
+}
+
+// Links — cleaner hover (no underline by default on hover)
+a:hover {
+  text-decoration: none;
+  color: $link-hover-color;
+}
+
+// Footer — subtle
+.site-footer {
+  color: rgba($text-color, 0.5);
+  font-size: 0.875rem;
+}
+
+.footer-col-wrapper {
+  color: rgba($text-color, 0.5);
+}
+
+// Dark syntax highlighting (matches background)
+.highlight {
+  .c     { color: #6b5e8a; font-style: italic }  // Comment
+  .err   { color: #f07178 }                        // Error
+  .k     { color: #89ddff; font-weight: bold }     // Keyword
+  .o     { color: $brand-color-light }             // Operator
+  .cm    { color: #6b5e8a; font-style: italic }    // Comment.Multiline
+  .cp    { color: #6b5e8a; font-weight: bold }     // Comment.Preproc
+  .c1    { color: #6b5e8a; font-style: italic }    // Comment.Single
+  .cs    { color: #6b5e8a; font-weight: bold; font-style: italic }
+  .gd    { color: #f4a7c0 }                        // Generic.Deleted
+  .ge    { font-style: italic }
+  .gr    { color: #f07178 }
+  .gh    { color: $brand-color-light; font-weight: bold }
+  .gi    { color: #c3e88d }                        // Generic.Inserted
+  .go    { color: rgba($text-color, 0.5) }
+  .gp    { color: $brand-color-light }
+  .gs    { font-weight: bold }
+  .gu    { color: $brand-color; font-weight: bold }
+  .gt    { color: #f07178 }
+  .kt    { color: #ffcb6b; font-weight: bold }     // Keyword.Type
+  .m     { color: #f78c6c }                        // Literal.Number
+  .s     { color: #c3e88d }                        // Literal.String
+  .na    { color: $brand-color-light }
+  .nb    { color: $text-color }
+  .nc    { color: #ffcb6b; font-weight: bold }
+  .nf    { color: #82aaff; font-weight: bold }     // Name.Function
+  .nt    { color: #ffcb6b }
+  .nv    { color: $text-color }
+  .w     { color: rgba($text-color, 0.3) }
+  .mf, .mh, .mi, .mo { color: #f78c6c }
+  .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: #c3e88d }
+  .il    { color: #f78c6c }
+}
