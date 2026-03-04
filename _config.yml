@@ -23,7 +23,7 @@ email: "juno@translunar.io"
 description: >- # this means to ignore newlines until "baseurl:"
   Personal site of Juno Woods, PhD — aerospace engineer, ML practitioner, artist, and policy wonk working on existential risk: space, climate, and AI.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.translunarindustries.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://translunar.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SpaceJuno
 github_username:  translunar
 linkedin_username: translunar
