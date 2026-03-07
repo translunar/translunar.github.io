@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://translunar.io/sitemap.xml
