@@ -5,7 +5,7 @@
   "name": "Juno Woods",
   "url": "{{ site.url }}",
   "jobTitle": "Aerospace Engineer",
-  "description": "{{ site.description | escape }}",
+  "description": {{ site.description | jsonify }},
   "sameAs": [
     "https://github.com/{{ site.github_username }}",
     "https://www.linkedin.com/in/{{ site.linkedin_username }}",
