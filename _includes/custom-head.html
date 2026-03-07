@@ -11,3 +11,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
 
+{%- if page.layout == "home" -%}
+  {%- include person-schema.html -%}
+{%- endif -%}
