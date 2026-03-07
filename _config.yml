@@ -31,7 +31,7 @@ google_analytics: G-XZ41M2WVVF
 show_excerpts: True
 excerpt_separator: "<!--more-->"
 
-# Permalink settings:
+# Page defaults:
 defaults:
   - scope:
       path: ""
