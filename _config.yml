@@ -34,6 +34,10 @@ excerpt_separator: "<!--more-->"
 # Permalink settings:
 defaults:
   - scope:
+      path: ""
+    values:
+      image: /assets/images/headshot.png
+  - scope:
       path: "_posts"
       type: "posts"
     values:
