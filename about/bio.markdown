@@ -2,25 +2,29 @@
 layout: page
 title: Biography
 permalink: /about/bio/
-description: "Dr. Juno Woods is an aerospace engineer, computational biologist, pro-democracy activist, and artist. From lunar landing navigation to installation art."
+description: "Dr. Juno Woods is an aerospace engineer and AI researcher with a PhD in computational biology. From lunar lander navigation to AI agent systems."
 ---
 
-Juno Woods grew up on the border of Alexandria and Arlington, Virginia. A National Merit Scholar, she pursued a B.S. in computer science at Virginia Tech, minoring in mathematics, Russian language, and philosophy. During this time, Juno also earned her black belt in Tae Kwon Do, and taught it to hundreds of fellow students.
+I'm an aerospace engineer and AI researcher with a PhD in computational biology. I architect spacecraft navigation systems at Astranis and research how AI agents work in high-stakes engineering environments. The combination is the point — state estimation, gene-phenotype prediction, and agent behavior are all problems of inference under uncertainty.
 
-Juno graduated in May 2007, and a few weeks later started a doctoral program in cell and molecular biology (with a concentration in computational biology and bioinformatics) at the University of Texas at Austin. While a student, she researched synthetic biology and published on HIV virology before studying evolutionary systems biology in the [Marcotte Lab](http://www.marcottelab.org/index.php/Main_Page). During this time, Juno earned a prestigious National Science Foundation Fellowship. She also started dancing lindy hop and balboa, a hobby she pursued for almost a decade. Additionally, she founded the SciRuby Project and wrote NMatrix, a linear algebra library for the Ruby language, and mentored a number of students in Google Summer of Code.
-
-As a result of the tragedy at Virginia Tech in 2007, Juno spent a significant amount of time at the Texas Legislature advocating for universal background checks, for the closure of loopholes such as the mental health loophole ([81(R) HB 3352](https://capitol.texas.gov/BillLookup/History.aspx?LegSess=81R&Bill=HB3352), passed in 2009), and against bills that would have forced universities to allow guns in classrooms and sports games. For this work, Juno was recognized by the White House (and, almost as importantly, the _Austin Chronicle_).
-
-Together with Frances Schenkkan, Juno founded [Texas Gun Sense](http://txgunsense.org), a 501(c)(3) non-profit which works to provide objective, fact-based research on firearms policy to the public and lawmakers in Texas. Juno was also inducted into UT's [Friar Society](https://www.friarsociety.org).
-
-After completing her dissertation, Dr. Woods chose West Virginia University's Applied Space Exploration Laboratory for her postdoctoral studies. There she apprenticed to Dr. John Christian, and worked on autonomous rendezvous of spacecraft with asteroids and satellites using LIDAR, as part of a project with NASA GSFC's Satellite Servicing Capabilities Office.
-
-In 2015, Juno retured to Houston to accept a job at [Intuitive Machines](http://www.intuitivemachines.com). There she worked on a variety of problems in state estimation, spacecraft navigation, and simulation, including Moon Express's MX-1 moon lander, IM's Universal Return Vehicle, and the Axiom commercial space station. Eventually, she worked on the navigation, trajectory, and mission design for IM's own lunar lander, NOVA-C, which later became [the first privately-owned lunar lander to soft land on the Moon](https://en.wikipedia.org/wiki/IM-1) (in February 2024).
+I bootstrapped the mission design for [Odysseus](https://en.wikipedia.org/wiki/IM-1), the first privately-owned lunar lander on the Moon. My doctoral work at UT Austin (NSF Fellow, [Marcotte Lab](http://www.marcottelab.org/index.php/Main_Page)) used orthologous phenotypes to [predict gene-disease associations across species](https://carlzimmer.com/the-search-for-genes-leads-to-unexpected-places-336/) — work covered by Carl Zimmer in the New York Times ([original](https://carlzimmer.com/the-search-for-genes-leads-to-unexpected-places-336/), [follow-up](https://carlzimmer.com/gene-tests-in-yeast-aid-work-on-cancer-250/)). Now I build the systems that make AI agents reliable enough to trust with real engineering work.
 
 <img alt="A photograph of Juno and another person standing in the ruins of an Atlas F missile silo" src="/assets/images/atlas_f_silo.png" style="width:45%; float:right; margin: 0 0 1.5em 2em;" />
 
-In late 2019, Juno left Houston to work on guidance, navigation, and control for [Open Lunar Foundation](https://www.openlunar.org)'s series of spacecraft. Six months later, the COVID-19 pandemic led to the entire engineering team being laid off; Juno kept going to work, and eventually was re-hired as the Director of Engineering Research and Strategy. There she researched multilateral arms control regimes, collective invention, and open source as related to the space industry.
+## Background
 
-In 2020, Juno founded Translunar LLC to consult on GN&C and space policy problems. Clients included Masten Space Systems and Astra Space. She also worked on orbit determination and computer vision problems during this time. Subsequently, she worked in carbon sequestration at Charm Industrial, and is now employed at Astranis Space Technologies.
+I grew up on the border of Alexandria and Arlington, Virginia. A National Merit Scholar, I studied computer science at Virginia Tech (minoring in mathematics, Russian, and philosophy) and graduated in May 2007.
 
-In her free time, Juno makes art, plays music, and participates in interactive theater projects. She trains "green dot" rangers in the [Black Rock Rangers](https://rangers.burningman.org), who provide mental health first aid to the citizens of Black Rock City.
+A few weeks after the tragedy at Virginia Tech, I started a doctoral program in cell and molecular biology at the University of Texas at Austin. While a student, I published on HIV virology and studied evolutionary systems biology in the [Marcotte Lab](http://www.marcottelab.org/index.php/Main_Page). I also founded the [SciRuby Project](https://sciruby.com) and wrote NMatrix, a linear algebra library for Ruby, and mentored students through Google Summer of Code.
+
+The shooting led me to spend years at the Texas Legislature advocating for universal background checks and against campus carry. Together with Frances Schenkkan, I co-founded [Texas Gun Sense](http://txgunsense.org), a 501(c)(3) providing fact-based firearms policy research. For this work, I was recognized by the Obama White House as a Champion of Change.
+
+After my dissertation, I chose West Virginia University for postdoctoral work with Dr. John Christian — autonomous rendezvous of spacecraft with asteroids and satellites using LIDAR, with NASA GSFC's Satellite Servicing Capabilities Office.
+
+In 2015, I joined [Intuitive Machines](http://www.intuitivemachines.com) in Houston, where I worked on state estimation, navigation, and mission design for multiple lunar landers — Moon Express MX-1, Masten XL-1, the Axiom commercial space station, and eventually the NOVA-C lander that became Odysseus.
+
+I later worked at [Open Lunar Foundation](https://www.openlunar.org) (Director of Engineering Research and Strategy, publishing on export controls and collective invention), founded Translunar LLC for GN&C consulting, worked in climate tech at Charm Industrial, and am now at Astranis Space Technologies.
+
+In my free time, I make art, play music, and participate in interactive theater. I train "green dot" rangers in the [Black Rock Rangers](https://rangers.burningman.org), providing mental health first aid at Burning Man.
+
+[Media coverage →](/about/media/)
