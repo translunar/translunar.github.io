@@ -21,7 +21,7 @@
 title: "Translunar Industries"
 email: "juno@translunar.io"
 description: >- # this means to ignore newlines until "baseurl:"
-  Juno Woods is an aerospace engineer, ML practitioner, artist, and policy wonk working on existential risk: space, climate, and AI.
+  Juno Woods is an aerospace engineer, AI researcher, and computational biologist. Spacecraft navigation, AI agent systems, and inference under uncertainty.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://translunar.io" # the base hostname & protocol for your site, e.g. http://example.com
 threads_username: translunar.injection
