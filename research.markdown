@@ -5,7 +5,11 @@ permalink: /research/
 description: "Publications and technical reports by Juno Woods in spacecraft guidance, navigation, & control (GN&C) and computational/systems biology (evolution)."
 ---
 
-This page is divided topically! Aerospace research is at the top, and biology is further down.
+Three threads connect my research across fields: computational methods applied to hard inference problems, open source tooling for scientific communities, and making complex systems legible. Whether that's predicting gene–phenotype associations from cross-species data, navigating spacecraft with noisy LIDAR measurements, or reverse-engineering how AI agents manage context — the underlying question is the same: how do you reason well under uncertainty?
+
+I'm currently working on AI agent behavior and context engineering. See [Agentic](/agentic/) for active projects.
+
+---
 
 ## Aerospace
 
