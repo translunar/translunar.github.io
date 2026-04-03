@@ -6,8 +6,6 @@ image: /assets/images/Odysseus.webp
 description: "Spacecraft guidance, navigation, and control — from lunar landing mission design to Kalman filters and trajectory optimization. I bootstrapped the mission design for Odysseus (IM-1), the first privately-owned lunar lander on the Moon."
 ---
 
-# Aerospace
-
 In February 2024, Odysseus became the first privately-owned lunar lander to soft-land on the Moon. I bootstrapped its original mission design as the sole mission designer at Intuitive Machines during the proposal phase — reference trajectories, ground station selection, attitude timelines, sensor specs, and landing hazard analyses. I'm a subject matter expert on the [Navigation Doppler LIDAR](https://www.nasa.gov/directorates/stmd/impact-story-navigation-doppler-lidar/), the sensor Odysseus relied upon for its landing after its laser altimeters failed.
 
 <img alt="Image of Earth from Odysseus, on its way to the Moon" src="/assets/images/Odysseus.webp" style="width: 50%" align="right" />

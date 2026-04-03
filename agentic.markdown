@@ -6,8 +6,6 @@ permalink: /agentic/
 description: "AI agent research, context engineering, and applied ML — from aerospace state estimation to LLM-based tooling systems."
 ---
 
-# AI & Agents
-
 I research how AI agents work in high-stakes engineering environments — where the code has to be right, the review burden is real, and the tools are changing faster than the teams using them.
 
 My background is in state estimation and computational systems biology. I bring the same mathematical rigor to understanding AI systems: how they manage context, why they fail, and how to make them reliable enough to trust with real work (such as space missions, where failure is especially expensive).
@@ -25,8 +23,6 @@ A five-chapter manual documenting how Claude Code manages context internally, pl
 ### Waterbender — Data-Driven Content Strategy
 
 Applied ML research: 1,249 social media posts scored by LLM-as-judge on 8 engagement dimensions, analyzed with Mann-Whitney U tests and Bonferroni-corrected significance testing. Identified 6 statistically significant predictors of breakout engagement. Built a complete analytical pipeline and strategic framework from the findings.
-
-[GitHub](https://github.com/translunar/social)
 
 ### f64 — Democratization of Healthcare Advocacy
 

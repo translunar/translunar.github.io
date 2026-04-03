@@ -9,8 +9,6 @@ Three threads connect my research across fields: computational methods applied t
 
 I'm currently working on AI agent behavior and context engineering. See [Agentic](/agentic/) for active projects.
 
----
-
 ## Aerospace
 
 ### Peer-Reviewed Articles

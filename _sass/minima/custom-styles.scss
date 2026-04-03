@@ -167,16 +167,50 @@ figcaption {
   }
 }
 
-// H2 section dividers within posts
+// === VERTICAL RHYTHM ===
+// Base unit: ~1.75em (matches line-height). All vertical spacing
+// is a multiple of this so the page breathes evenly.
+
+// Page title — generous drop before content begins
+.post-content {
+  margin-top: 0.5em;
+}
+
+// Paragraphs — enough air to separate thoughts on a dark background
+// (dark themes need more whitespace than light ones to feel open)
+.post-content p,
+.home p {
+  margin-bottom: 1.4em;
+}
+
+// H2 section dividers — major section breaks
 .post-content h2 {
   border-bottom: 1px solid $border-color-01;
-  padding-bottom: 0.3em;
+  padding-bottom: 0.4em;
+  margin-top: 3em;
+  margin-bottom: 1.2em;
+}
+
+// H3 subheadings — clear subordination under h2 but not cramped
+.post-content h3 {
+  margin-top: 2.2em;
+  margin-bottom: 0.8em;
+}
+
+// List items — publication entries need room to scan
+.post-content li {
+  margin-bottom: 0.6em;
+}
+
+// Nested lists (sub-items) tighter
+.post-content li li {
+  margin-bottom: 0.3em;
 }
 
 // Images centered in posts
 .post-content img {
   display: block;
-  margin: 1.5em auto;
+  margin: 2em auto;
   max-width: 100%;
 }
 
