@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Biography
+nav_title: Bio
 permalink: /about/bio/
 description: "Dr. Juno Woods is an aerospace engineer and AI researcher with a PhD in computational biology. From lunar lander navigation to AI agent systems."
 ---
