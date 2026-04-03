@@ -9,4 +9,4 @@ title: Home
 
 Aerospace engineer, artist, and policy wonk working on existential risk: space, climate, and AI. I bootstrapped the mission design for [Odysseus](https://en.wikipedia.org/wiki/IM-1) — the first privately-owned lunar lander to soft-land on the Moon. I also make interactive installations, write about AI and biosecurity, and [re-brand Teslas](https://www.resistanceaesthetic.com).
 
-[Engineering](engineering) &middot; [Art](art) &middot; [Research](research) &middot; [Blog](blog) &middot; [Bio](about/bio) &middot; [Media](about/media) &middot; [CV](/assets/cv.pdf)
+[Agentic](agentic) · [Aerospace](aerospace) · [Art](art) · [Research](research) · [Blog](blog) · [Bio](about/bio) · [CV](/assets/cv.pdf)
