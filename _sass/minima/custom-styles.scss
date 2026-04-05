@@ -264,6 +264,59 @@ aside {
   }
 }
 
+// Details/summary — collapsible panel, same aesthetic as aside
+details {
+  background: $code-background-color;
+  border: 1px solid $border-color-01;
+  padding: 1.4em 1.5em;
+  margin: 2em 0;
+  font-family: $code-font-family;
+  font-size: 0.85em;
+  line-height: 1.75;
+  color: rgba($text-color, 0.8);
+
+  summary {
+    color: $brand-color;
+    cursor: pointer;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: -1.4em -1.5em;
+    padding: 1.4em 1.5em;
+    list-style: none;
+
+    // Custom triangle indicator
+    &::before {
+      content: "▶ ";
+      font-size: 0.7em;
+      opacity: 0.7;
+      display: inline-block;
+      transition: transform 0.15s ease;
+    }
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:hover {
+      color: $link-hover-color;
+    }
+  }
+
+  &[open] summary {
+    margin-bottom: 1em;
+    border-bottom: 1px solid $border-color-01;
+    padding-bottom: 1em;
+
+    &::before {
+      transform: rotate(90deg);
+    }
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
 // Blockquote — left accent line, not italic
 blockquote {
   border-left: 3px solid $brand-color;

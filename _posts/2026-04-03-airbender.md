@@ -13,6 +13,22 @@ toc: true
 <!-- Thesis: Testability is the missing lens for AI agent instructions. -->
 <!-- Tone: Professional-folksy. Direct, casually credentialed. Not attacking Anthropic. -->
 
+<!-- TASK LIST (for Claude):
+- [x] Fix CSS: inline code backticks render with no foreground/background contrast
+- [ ] Make "here's how I'd have done it" open a collapsible aside containing the numbered list
+- [ ] Create image: system prompt segments (horizontal/vertical bar of 10 sections from Ch2 table)
+- [x] Research: context ordering. Results in docs/research/context-ordering.md. Key: CLAUDE.md at section 9, memories via system-reminder per-turn, skills as tool results (most recent). Memory subagent timing unclear. Cold-start selection not answered. MagicDocs NOT injected into main context — pre-loaded into post-conversation subagent. Subagents likely receive CLAUDE.md but not confirmed.
+- [ ] Include a hook example (JSON syntax) so readers see it's config, not a prompt
+- [x] Check: satellite paragraph COMMENTED OUT and moved to end. Swiss cheese cut.
+- [x] Create image: swiss cheese model graphic — CUT (section removed)
+- [x] Research: subagents and CLAUDE.md. CONFIRMED empirically — subagents receive CLAUDE.md via system-reminder blocks. Hedge removed from article.
+- [x] Research: TDD cost estimates. INSERTED as table + aside in "How might one actually test" section. Links to cost model on GitHub.
+- [x] Find citation: "contextual recency improves recall." INSERTED as inline citation (Liu et al. 2023) in same section.
+- [x] Find self-improving agent blog: NOT FOUND. Section containing the reference was cut (moved to future post draft).
+- [x] Organizational advice: DONE. Sections 5+6 saved to docs/drafts/context-engineering-as-science.md. Satellite paragraph commented out at end. Swiss cheese cut. Takeaway tightened to: bridge → cost table → implicit testing → close.
+- [ ] Delete remaining scaffolding comments once all sections are written
+-->
+
 <!-- TODO: the inline code indicated with backticks is currently rendering with no contrast between foreground and background color. Please fix the CSS -->
 
 ## The stakes
@@ -38,13 +54,19 @@ Relying on the source maps and reverse-engineered Claude Code prompts, and with 
 > **No customer data, no API credentials, no model weights.** What was exposed: approximately 512,000 lines of TypeScript across ~1,900 files — the query engine, tool system, multi-agent orchestration logic, context compaction, and 44 feature flags covering functionality that’s built but not yet shipped.
 > Those feature flags are the most strategically sensitive part. Compiled code sitting behind flags that evaluate to `false` in the external build isn’t just implementation detail — it’s a product roadmap. Competitors can now see what Anthropic has built and is considering shipping. That strategic surprise can’t be un-leaked.
 <aside><p>There has been some debate on the Internet as to whether the "source code" was accidentally posted to npm or the "source maps." With TypeScript and JavaScript, there isn't much distinction "source code" and "source maps," since the source maps contain the original source code. In a TypeScript distribution, the TypeScript (which is a superset of JavaScript) gets <i>transpiled</i>, meaning reduced to JavaScript. Then the Javascript is bundled, which means the files are concatenated together, the whitespace is removed, control flow is restructured, and variable names are made as short as possible. The source code exists in an obfuscated form in any Claude Code release, but the source maps are the keys to the kingdom.</p></aside>
-Within a couple of hours, a Korean developer named Sigrid Jin (handle instructkr) had used OpenAI's Claude Code competitor, Codex, to do a "clean room" Python rewrite. I don't know the exact strategy Jin used, but <!-- link starts here --> here's how I'd have done it in a similar timeframe using Superpowers.<!--link ends here and should open collapsible extra comment box containing the below list as an aside -->
+Within a couple of hours, a Korean developer named Sigrid Jin (handle instructkr) had used OpenAI's Claude Code competitor, Codex, to do a "clean room" Python rewrite. I don't know the exact strategy Jin used, but
+
+<details>
+<summary>here's how I'd have done it in a similar timeframe using Superpowers.</summary>
+
 1. `/brainstorming` Have Agent One read the TypeScript and write up the design document.
 2. Hand off the design document to Agent Two, naive to the original code, and ask it to `/brainstorming` writing a new design document adapting the TypeScript design into Python and Rust.
 3. Have Agent One review Agent Two's design and see if Agent Two missed anything.
 4. Have Agent Two `/writing-plans` write an implementation plan using `/test-driven-development`, then have an independent reviewer review the plan.
 5. Go through and `/writing-skills` on any skill rewrites needed.
 6. Use `/subagent-driven-development` to dispatch a team of subagents to implement the plan, with two reviews, one for plan consistency and a second for code quality.
+
+</details>
 
 I relied on two main sources for my research: Claw Code and [a separate set of 250+ reverse-engineered prompts](https://github.com/Piebald-AI/claude-code-system-prompts) Piebald AI automatically pulls from every Claude Code release.
 ### Five mechanisms for user control of behavior
@@ -122,55 +144,34 @@ Points to hit:
 - Three channels: insight dispatch (primary), manual, Stop hook pruning (safety net)
 -->
 ## The takeaway
-<aside><p><b>tl;dr</b>: agents are only reliable to the extent they can be tested, and it might be useful to brush up on your evolutionary biology.</p></aside>
-Acquisition and bring-up of a communication satellite arriving in orbit feels a little like juggling. The launch vehicle tosses a swarm of satellites up (four at once in our most recent block), and mission operators try to locate and "catch" them in the beams of ground stations as quickly as possible to "safe" the vehicles (to verify they're in good power states and get all subsystems deployed and running). Because of the cost of operating ground stations and the tendency of space vehicles to drop out of view over the course of their orbits, several vehicles are often competing for scarce ground antenna resources. Even in-service, many vehicles are vying for the attention of only a handful of operators. <!--Please check this paragraph and the next and see how common this stuff is in the space industry. I'll run it by my bosses but I want to make sure this is all common knowledge.-->
-
-### Agent alignment in critical systems
-To dramatize the situation a bit, no engineer wants their missed `CLAUDE.md` instruction to show up in as the root cause of an anomaly ticket. The solution, of course, is to rely on `CLAUDE.md` as little as possible, and instead to prefer testable instructions.
-
-Coding agents, like humans, are fallible. In safety, reliability, and security, we often think of our measures in terms of a "swiss cheese" model, <!--TODO: include swiss cheese graphic here--> wherein the goal is to keep the holes in the various slices from lining up. When the holes in all the layers line up, an anomaly ticket must be filed. With safety, especially, we say that rules are written in blood. And so we see that preferring testable instructions is a relatively easy way to align agentic workers.
+No engineer wants their missed `CLAUDE.md` instruction to show up as the root cause of an anomaly ticket. The solution is to rely on `CLAUDE.md` as little as possible, and instead to prefer testable instructions.
 ### How might one actually test `CLAUDE.md` instructions?
 With skills, we ask a fresh subagent to try to do something and evaluate its performance against a pre-established set of benchmarks or evals.
 
-With `CLAUDE.md`, it's harder. We can test instructions with fresh subagents, which also get all the `CLAUDE.md` <!--CHECK THIS--> files. However, the issue is often _not_ a fresh sub-agent, but one with its million-token context 93% full. Each iteration of red/green/refactor testing in such an environment is inherently much more expensive than with skills. <!--How much would this cost with Haiku, Sonnet, and Opus?-->
+With `CLAUDE.md`, it's harder. We can test instructions with fresh subagents, which also receive the project's `CLAUDE.md` files. However, the issue is often _not_ a fresh sub-agent, but one with its million-token context 93% full. Each iteration of red/green/refactor testing in such an environment is inherently much more expensive than with skills:
 
-This is a consequence of where `CLAUDE.md` instructions versus skill instructions are injected, because contextual recency improves recall. <!--citation needed-->
+| Scenario | Haiku 4.5 | Sonnet 4.6 | Opus 4.6 |
+|---|---|---|---|
+| Skill TDD (fresh subagent, ~15K tokens) | $0.08 | $0.23 | $0.38 |
+| `CLAUDE.md` TDD (fresh conversation, ~12K tokens) | $0.07 | $0.20 | $0.33 |
+| `CLAUDE.md` TDD (93% full context, ~198K tokens) | $0.62 | $1.87 | $3.12 |
+| `CLAUDE.md` TDD (93% full, with prompt caching) | $0.61 | $1.83 | $3.05 |
+
+<aside><p>Full-context Haiku ($0.62/cycle) costs more than skill-based Opus ($0.38/cycle). Prompt caching barely helps when testing CLAUDE.md changes — only sections 1–8 of the system prompt (about 9,500 tokens) are cacheable, because the CLAUDE.md change at section 9 invalidates the cache for everything after it, including the conversation. Total savings: 2.4%. The <a href="https://github.com/translunar/airbender/blob/main/analysis/tdd_cost_model.py">cost model</a> is in the airbender repository.</p></aside>
+
+This is a consequence of where `CLAUDE.md` instructions versus skill instructions are injected, because contextual recency improves recall ([Liu et al. 2023, "Lost in the Middle"](https://arxiv.org/abs/2307.03172)).
 ### Actually, memory-based instructions are testable
 Memory-based instructions aren't the subject of explicit tests, but rather implicit red/green/refactor cycles. Memories get added because Claude failed at something repeatedly. If the agent continues to fail, the memories get refactored. It seems likely that the same is true of MagicDocs, if not perhaps of my implementation just yet.
 
 While this process can involve a human (such as with the `/memory` command, or less optimally, by cursing at the LLM), increasingly it occurs without a human in the loop, such as with subagents or agent teams.
-### Context engineering resembles hypothesis-driven science
-Most engineering is not hypothesis-driven. Test-driven design in a coding setting is an engineering discipline, not a science discipline. The closest engineers get to a hypothesis is, "Our design will be born out over the product lifetime." It broke? Oh. Null hypothesis. But we aren't measuring reality; we're just measuring our own achievements, in an Olympic-sized dose of humanism.
-
-Context and prompt engineering, in contrast, has two dimensions:
-1. Improvement in agentic pipelines is an evolutionary process, occurring by adaptation; and
-2. Each adaptation is the outcome of a testable hypothesis.
-
-Sometimes, as in skills, humans write the hypotheses together with the LLM and test them explicitly: _Is this instruction necessary? Is it sufficient?_
-### Context engineering, adaptive processes, and human feedback
-On my grad school interview visit to the University of Texas at Austin, synthetic biology professor Andy Ellington pitched me on using cells like computers. While I pursued a different project for my eventual doctoral research at UT, I loved thinking about this problem. Cells do computation. But unlike most computers, they compensate for poor error-correction by working in swarms. Over time, they mutate their own instructions; they adapt. One of the biggest challenges in synthetic biology is providing cells with instructions that they don't simply shed in favor of their own paperclip-maximizing interests.
-
-Increasingly, the goal of agentic design is to build a system where the LLM is implicitly writing, testing, and improving its own hypotheses implicitly. Many are already experimenting <!--link to that self-improving social media thing I found which has a blog about the skills it's working on--> with taking themselves out of the loop in a limited fashion. As agentic memory improves, I expect we'll need to think more about the places where feedback loops ought to include humans in order to prevent the accumulation of (to us) deleterious adaptations.
 
 <aside><p>Attribution</p><p>I used Claude for the editing, research, illustration, and verification, but not for the writing, of this article.</p>
 <p>Claude Code almost exclusively wrote the documents in the <a href="https://www.github.com/translunar/airbender/">airbender repository</a>.</p></aside>
 
-<!--
-Scaffolding — delete when written:
-
-Links for this section:
-- Airbender repo: [github.com/translunar/airbender](https://github.com/translunar/airbender)
-- Plugin install: `claude plugin marketplace add translunar/airbender`
-- Chapter 4 decision tree: [What to Put Where](https://github.com/translunar/airbender/blob/main/docs/04-what-to-put-where.md)
-
-Points to hit:
-- The lens that makes sense of all of this is testability
-- Skills: explicitly testable (RED/GREEN/REFACTOR with pressure scenarios)
-- MagicDocs: implicitly testable (development cycle surfaces and corrects stale/wrong docs)
-- CLAUDE.md: no feedback loop. Instructions persist silently whether they work or not.
-- Doesn't mean CLAUDE.md is useless — good for environmental priors ("use pnpm not npm"). Behavioral instructions belong in testable mechanisms.
-- Context position matters: instructions at the point of action (skills, tool results) outperform instructions loaded thousands of tokens ago (CLAUDE.md)
-- Folksy close
+<!-- COMMENTED OUT: Satellite juggling paragraph. May reintroduce if it fits.
+Acquisition and bring-up of a communication satellite arriving in orbit feels a little like juggling. The launch vehicle tosses a swarm of satellites up (four at once in our most recent block), and mission operators try to locate and "catch" them in the beams of ground stations as quickly as possible to "safe" the vehicles (to verify they're in good power states and get all subsystems deployed and running). Because of the cost of operating ground stations and the tendency of space vehicles to drop out of view over the course of their orbits, several vehicles are often competing for scarce ground antenna resources. Even in-service, many vehicles are vying for the attention of only a handful of operators.
 -->
+
+<!-- NOTE: Sections on "context engineering as science" and "adaptive processes / synthetic biology" saved to docs/drafts/context-engineering-as-science.md for a future blog post. -->
 
 
