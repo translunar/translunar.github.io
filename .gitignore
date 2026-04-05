@@ -7,4 +7,5 @@ vendor
 *~
 \#*\#
 .DS_Store
-.docs/
+docs/
+.obsidian/
