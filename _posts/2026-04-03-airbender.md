@@ -6,6 +6,7 @@ image: /assets/images/airbender-decision-tree.png
 description: "Claude Code has six mechanisms for shaping agent behavior. Most people use one. I researched how they actually work, built an open-source MagicDocs system, and validated it with TDD."
 tags: ai claude-code context-engineering tdd agentic
 toc: true
+excerpt: "Claude Code has six mechanisms for shaping agent behavior, but most people put everything in CLAUDE.md — where it gets buried after five sections of Anthropic's own instructions. I researched how the system actually works, built an open-source replacement for an internal Anthropic feature, and validated it with TDD. The key insight: testability, not placement, is what makes instructions stick."
 ---
 
 <!-- SPEC: Mystery arc, ~2000 words. See docs/plans/ for full design spec. -->
@@ -15,10 +16,10 @@ toc: true
 
 <!-- TASK LIST (for Claude):
 - [x] Fix CSS: inline code backticks render with no foreground/background contrast
-- [ ] Make "here's how I'd have done it" open a collapsible aside containing the numbered list
-- [ ] Create image: system prompt segments (horizontal/vertical bar of 10 sections from Ch2 table)
-- [x] Research: context ordering. Results in docs/research/context-ordering.md. Key: CLAUDE.md at section 9, memories via system-reminder per-turn, skills as tool results (most recent). Memory subagent timing unclear. Cold-start selection not answered. MagicDocs NOT injected into main context — pre-loaded into post-conversation subagent. Subagents likely receive CLAUDE.md but not confirmed.
-- [ ] Include a hook example (JSON syntax) so readers see it's config, not a prompt
+- [x] Make "here's how I'd have done it" open a collapsible aside — implemented with details/summary, styled to match aside
+- [x] Create image: system prompt segments — SVG at assets/images/system-prompt-segments.svg, inserted with figure/figcaption
+- [x] Research: context ordering. INSERTED into article — replaced inline comments with research findings. Claw Code link verified. MagicDocs aside added.
+- [x] Include a hook example — JSON block with PostToolUse lint example
 - [x] Check: satellite paragraph COMMENTED OUT and moved to end. Swiss cheese cut.
 - [x] Create image: swiss cheese model graphic — CUT (section removed)
 - [x] Research: subagents and CLAUDE.md. CONFIRMED empirically — subagents receive CLAUDE.md via system-reminder blocks. Hedge removed from article.
@@ -35,6 +36,7 @@ toc: true
 At my day job, we build trunk-level communication satellites for countries like [Taiwan](https://spacenews.com/astranis-clinches-115-million-taiwan-deal-despite-satellite-setback/) (whose undersea fiber optic cables keep getting [cut by the PRC](https://www.cnn.com/2025/02/25/asia/taiwan-detains-ship-undersea-cable-intl-hnk)), so minimizing unpredictability in our systems is exceptionally important.
 
 In that role, I noticed over and over again that Claude Code would ignore `CLAUDE.md` instructions, and that it responded much better to [agent skills](https://agentskills.io/home).
+
 ## The observation
 This experience contrasts with Anthropic's documentation and marketing materials, Anthropic tells people to put instructions for Claude Code in a `CLAUDE.md` file. For example, it was a key focus on 24 March in a webinar called _[Claude Code Advanced Patterns](https://www.anthropic.com/webinars/claude-code-advanced-patterns)_, and it's front and center in _[Best Practices for Claude Code](https://code.claude.com/docs/en/best-practices)_ from their official docs.
 
@@ -68,15 +70,33 @@ Within a couple of hours, a Korean developer named Sigrid Jin (handle instructkr
 
 </details>
 
-I relied on two main sources for my research: Claw Code and [a separate set of 250+ reverse-engineered prompts](https://github.com/Piebald-AI/claude-code-system-prompts) Piebald AI automatically pulls from every Claude Code release.
+I relied on two main sources for my research: Claw Code and [a separate set of a couple hundred reverse-engineered prompts](https://github.com/Piebald-AI/claude-code-system-prompts) Piebald AI automatically pulls from every Claude Code release.
 ### Five mechanisms for user control of behavior
 A key take-away from analysis of Claw Code and the prompts is that Claude Code provides four public-facing mechanisms for shaping Claude's behavior (`CLAUDE.md`, memory, skills, hooks) and a fifth internal mechanism (MagicDocs). Four of the strategies are prompt-based and non-deterministic, and one (hooks) is purely mechanical and deterministic.
 
-<!-- An image: a horizontal or vertical bar divided into segments matching the table from docs/02-context-engineering.md. The segments are each labeled in larger text with the Section column, and have smaller text matching the "what it contains" column. Dynamic Boundary does not get to be a section; this is instead an arrow pointed directly between the Actions and Environment segments. The Intro through Actions portion is labeled something like "same across all Claude Code sessions" and the Environment through Runtime config section is labeled "ephemeral: configuration, situational awareness". -->
+<figure>
+<img src="/assets/images/system-prompt-segments.svg" alt="Diagram showing the 10 sections of Claude Code's system prompt. Sections 1-5 (Intro, Output Style, System Rules, Doing Tasks, Actions) are static across all sessions. Below the dynamic boundary, sections 7-10 (Environment, Project Context, CLAUDE.md, Runtime Config) are project-specific. CLAUDE.md lands at section 9 of 10 — after five sections of Anthropic's behavioral instructions." />
+<figcaption>Claude Code's system prompt is assembled from 10 sections in a fixed order. Your CLAUDE.md instructions land at section 9.</figcaption>
+</figure>
 
-From Claw Code <!--verify-->, we know that the system prompt consists of ten segments, shown above. Following the system prompt is the actual conversation. The conversation begins with a `<system-reminder>` block with available skills indexed by `when_to_use` and `description`. Then, at the beginning of each turn, or conversational exchange, an additional system reminder is provided with a list of up to five memory files a subagent has decided are relevant based on the memory `description` field. <!-- Is the ordering here correct? Please look at the claw-code source to confirm. Does this subagent re-run every turn, or just periodically? If periodically, how do the relevant memories get provided at the beginning of a conversation, before we know the topic? Also, where do MagicDocs get injected? In Anthropic's internal usage, are they also injected via CLAUDE.md and does this provide enough information for the model to know to look for them before looking at source code? Please read the prompts for this info. -->
+From [Claw Code](https://github.com/instructkr/claw-code), we know that the system prompt consists of ten segments, shown above. Following the system prompt is the actual conversation. At session start, a `<system-reminder>` block lists available skills indexed by `when_to_use` and `description` — but their full content stays on disk until invoked. At each turn, an additional system reminder provides up to five memory files that a Sonnet subagent has selected based on the memory `description` field. When a skill is invoked, its content arrives as a tool result — the freshest position in context.
+<aside><p>Internally, Anthropic's MagicDocs are not injected into the conversation at all. They're maintained by a post-conversation Sonnet subagent that receives each doc pre-loaded as template variables. A CLAUDE.md pointer tells future sessions where to find the docs, but the docs themselves live on disk.</p></aside>
 
-As mentioned, hooks aren't part of the context. They are defined in `settings.json` and might look like: <!-- Let's include a hook example here so people know what one looks like. I'm worried describing it using plain English will make it seem like a prompt and be confusing. -->
+As mentioned, hooks aren't part of the context. They're shell commands defined in `settings.json` that fire at lifecycle events — purely mechanical, no LLM judgment involved:
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [{
+      "matcher": "Write|Edit",
+      "hooks": [{
+        "type": "command",
+        "command": "cd $PROJECT_DIR && pnpm lint --fix $FILEPATH"
+      }]
+    }]
+  }
+}
+```
 
 [Chapter 2 of the Airbender Docs](https://github.com/translunar/airbender/blob/main/docs/02-context-engineering.md) goes into more detail about the mechanization of these different components and how the user-responsive pieces of Claude Code work.
 ### "But how do I decide where to put this instruction?"

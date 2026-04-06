@@ -233,6 +233,44 @@ figcaption {
   max-width: 100%;
 }
 
+// Tables — SVG-matched dark panel style
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+  font-size: 0.9em;
+
+  th {
+    background: $code-background-color;
+    color: $brand-color-light;
+    font-weight: 600;
+    text-align: left;
+    padding: 0.7em 1em;
+    font-size: 0.88em;
+    letter-spacing: 0.02em;
+  }
+
+  td {
+    padding: 0.6em 1em;
+    color: rgba($text-color, 0.85);
+    background: $code-background-color;
+  }
+
+  tr:nth-child(even) td {
+    background: $table-zebra-color;
+  }
+
+  // Override Minima's hardcoded grey borders
+  th, td {
+    border: none !important;
+    border-bottom: 1px solid $border-color-01 !important;
+  }
+
+  tr:last-child td {
+    border-bottom: none !important;
+  }
+}
+
 // Aside — inset panel, styled like code comments
 // Uses a repeating SVG background to put # on every visible line
 aside {
@@ -328,8 +366,32 @@ blockquote {
   }
 }
 
-// Inline code — visible contrast on dark background
-// Targets <code> not inside a .highlight pre block
+// Code blocks — override Minima's hardcoded light defaults
+// Match aside aesthetic: same background, border, font size
+pre,
+code {
+  background: $code-background-color !important;
+  border: 1px solid $border-color-01 !important;
+  border-radius: 0 !important;
+  color: $text-color;
+  font-family: $code-font-family !important;
+  font-size: 0.85em !important;
+}
+
+pre {
+  padding: 1.4em 1.5em;
+  overflow-x: auto;
+  line-height: 1.75;
+
+  > code {
+    border: none !important;
+    padding: 0;
+    background: none !important;
+    font-size: inherit !important;
+  }
+}
+
+// Inline code — distinct from code blocks
 :not(pre) > code {
   font-family: $code-font-family;
   font-size: 0.875em;
