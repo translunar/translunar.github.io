@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Space Grotesk', 'Segoe UI', sans-serif">
+  <defs>
+    <style>
+      .section-static { fill: #1a1528; stroke: #3d3060; stroke-width: 1; }
+      .section-dynamic { fill: #13101c; stroke: #3d3060; stroke-width: 1; }
+      .section-label { fill: #e2ddf0; font-size: 14px; font-weight: 600; }
+      .section-desc { fill: #c9a0dc; font-size: 11px; opacity: 0.8; }
+      .section-num { fill: #6b5e8a; font-size: 11px; font-family: 'Space Mono', monospace; }
+      .bracket-label { fill: #a87dc8; font-size: 12px; font-weight: 600; letter-spacing: 0.05em; }
+      .boundary-line { stroke: #a87dc8; stroke-width: 2; stroke-dasharray: 6 4; }
+      .boundary-label { fill: #a87dc8; font-size: 11px; font-family: 'Space Mono', monospace; }
+      .arrow { fill: none; stroke: #6b5e8a; stroke-width: 1.5; }
+      .arrow-head { fill: #6b5e8a; }
+      .bg { fill: #0d0a14; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect class="bg" width="900" height="520" rx="0"/>
+
+  <!-- Left bracket: "Same across all sessions" -->
+  <line x1="55" y1="52" x2="55" y2="252" stroke="#a87dc8" stroke-width="2"/>
+  <line x1="55" y1="52" x2="62" y2="52" stroke="#a87dc8" stroke-width="2"/>
+  <line x1="55" y1="252" x2="62" y2="252" stroke="#a87dc8" stroke-width="2"/>
+  <text class="bracket-label" x="12" y="148" transform="rotate(-90 12 148)" text-anchor="middle">STATIC</text>
+  <text class="section-desc" x="30" y="164" transform="rotate(-90 30 164)" text-anchor="middle" style="font-size:10px; fill:#a87dc8; opacity:0.6">same every session</text>
+
+  <!-- Left bracket: "Dynamic: config + context" -->
+  <line x1="55" y1="298" x2="55" y2="470" stroke="#6040a0" stroke-width="2"/>
+  <line x1="55" y1="298" x2="62" y2="298" stroke="#6040a0" stroke-width="2"/>
+  <line x1="55" y1="470" x2="62" y2="470" stroke="#6040a0" stroke-width="2"/>
+  <text class="bracket-label" x="12" y="380" transform="rotate(-90 12 380)" text-anchor="middle" style="fill:#6040a0">DYNAMIC</text>
+  <text class="section-desc" x="30" y="388" transform="rotate(-90 30 388)" text-anchor="middle" style="font-size:10px; fill:#6040a0; opacity:0.6">project-specific</text>
+
+  <!-- Section 1: Intro -->
+  <rect class="section-static" x="70" y="40" width="760" height="40" />
+  <text class="section-num" x="82" y="65">1</text>
+  <text class="section-label" x="105" y="64">Intro</text>
+  <text class="section-desc" x="240" y="64">Role definition: "You are an interactive agent..."</text>
+
+  <!-- Section 2: Output style -->
+  <rect class="section-static" x="70" y="84" width="760" height="40" />
+  <text class="section-num" x="82" y="109">2</text>
+  <text class="section-label" x="105" y="108">Output Style</text>
+  <text class="section-desc" x="240" y="108">Custom style if configured (omitted otherwise)</text>
+
+  <!-- Section 3: System rules -->
+  <rect class="section-static" x="70" y="128" width="760" height="40" />
+  <text class="section-num" x="82" y="153">3</text>
+  <text class="section-label" x="105" y="152">System Rules</text>
+  <text class="section-desc" x="240" y="152">Tool permissions, hooks, compression, system-reminder tags</text>
+
+  <!-- Section 4: Doing tasks -->
+  <rect class="section-static" x="70" y="172" width="760" height="40" />
+  <text class="section-num" x="82" y="197">4</text>
+  <text class="section-label" x="105" y="196">Doing Tasks</text>
+  <text class="section-desc" x="240" y="196">Coding guidelines: read before modify, no speculative abstractions</text>
+
+  <!-- Section 5: Actions -->
+  <rect class="section-static" x="70" y="216" width="760" height="40" />
+  <text class="section-num" x="82" y="241">5</text>
+  <text class="section-label" x="105" y="240">Actions</text>
+  <text class="section-desc" x="240" y="240">Safety and reversibility: "measure twice, cut once"</text>
+
+  <!-- Dynamic boundary -->
+  <line class="boundary-line" x1="70" y1="274" x2="830" y2="274" />
+  <text class="boundary-label" x="450" y="290" text-anchor="middle">__SYSTEM_PROMPT_DYNAMIC_BOUNDARY__</text>
+
+  <!-- Section 7: Environment -->
+  <rect class="section-dynamic" x="70" y="298" width="760" height="40" />
+  <text class="section-num" x="82" y="323">7</text>
+  <text class="section-label" x="105" y="322">Environment</text>
+  <text class="section-desc" x="240" y="322">Model name, working directory, date, platform/OS</text>
+
+  <!-- Section 8: Project context -->
+  <rect class="section-dynamic" x="70" y="342" width="760" height="40" />
+  <text class="section-num" x="82" y="367">8</text>
+  <text class="section-label" x="105" y="366">Project Context</text>
+  <text class="section-desc" x="240" y="366">Today's date, git status snapshot</text>
+
+  <!-- Section 9: CLAUDE.md — highlighted -->
+  <rect x="70" y="386" width="760" height="40" fill="#1a1528" stroke="#a87dc8" stroke-width="2" />
+  <text class="section-num" x="82" y="411">9</text>
+  <text class="section-label" x="105" y="410" style="fill:#f0e6ff">CLAUDE.md</text>
+  <text class="section-desc" x="240" y="410" style="fill:#f4a7c0">Your instruction files — concatenated verbatim, root to cwd</text>
+
+  <!-- Section 10: Runtime config -->
+  <rect class="section-dynamic" x="70" y="430" width="760" height="40" />
+  <text class="section-num" x="82" y="455">10</text>
+  <text class="section-label" x="105" y="454">Runtime Config</text>
+  <text class="section-desc" x="240" y="454">Contents of settings.json files</text>
+
+  <!-- Annotation: CLAUDE.md position -->
+  <text x="700" y="410" style="fill:#f4a7c0; font-size:10px; font-family:'Space Mono',monospace; opacity:0.7">← section 9 of 10</text>
+
+  <!-- Bottom note about what comes after -->
+  <text class="section-desc" x="450" y="500" text-anchor="middle" style="font-size:12px; fill:#6b5e8a">
+    Then: conversation history → system-reminder (skills index, memories) → tool results (skills at point of action)
+  </text>
+</svg>
