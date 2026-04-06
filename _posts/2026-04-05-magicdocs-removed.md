@@ -4,6 +4,7 @@ title: "Anthropic quietly removed MagicDocs from Claude Code"
 author: Juno
 description: "MagicDocs was the least-modified of Claude Code's five oldest system prompts. It and /pr-comments — both legacy approaches from before the skills era — were removed in v2.1.91."
 tags: ai claude-code magicdocs context-engineering
+image: /assets/images/prompt-history.png
 toc: false
 excerpt: "Of the five system prompts that have existed for the entire observable history of Claude Code, MagicDocs was the least modified — 0 edits in the 134 days Piebald AI has been tracking Claude Code prompt updates. It was removed in v2.1.91 alongside /pr-comments, both legacy approaches that skills and memories now handle better."
 ---
@@ -39,7 +40,7 @@ Five prompts have existed since the repo began tracking. Of those five, MagicDoc
 These counts exclude repo maintenance commits (initial setup, metadata batch updates) and count only version-tagged Claude Code releases that modified the prompt content. MagicDocs was never modified by Anthropic — not once in the 134 days Piebald AI was tracking Claude Code releases.
 
 <figure>
-<img src="/assets/images/prompt-history.svg" alt="Scatter plot of Claude Code system prompt modification frequency vs lifespan, counting only content changes in version-tagged releases. MagicDocs is highlighted as a pink diamond at zero modifications over 134 days. Most prompts cluster between 1-8 content modifications." />
+<img src="/assets/images/prompt-history.png" alt="Scatter plot of Claude Code system prompt modification frequency vs lifespan, counting only content changes in version-tagged releases. MagicDocs is highlighted as a pink diamond at zero modifications over 134 days. Most prompts cluster between 1-8 content modifications." />
 <figcaption>MagicDocs received zero content modifications in the 134 days the prompt extraction repository tracked Claude Code, making it the only prompt Anthropic never iterated on in that time.</figcaption>
 </figure>
 
