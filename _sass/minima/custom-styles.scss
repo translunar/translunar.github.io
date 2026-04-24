@@ -1,9 +1,7 @@
 // === TRANSLUNAR.IO — CUSTOM STYLES ===
 
-// Logo: invert black-on-transparent to white on dark background
-.site-title::before {
-  filter: invert(1);
-}
+// Logo uses fill="currentColor" in the inlined SVG, picking up the
+// .site-title anchor's color — no invert filter needed.
 
 // Smooth rendering on dark backgrounds
 body {
@@ -18,20 +16,50 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-// Header — thin accent bar in brand color
+// Header — thin accent bar in brand color, flex layout for the inline-SVG logo.
+// Overrides minima's line-height + float trick which assumed a text site-title.
 .site-header {
   border-top: 3px solid $brand-color;
   border-bottom-color: $border-color-01;
+  padding: 1.25rem 0;
+  min-height: 0;
+  line-height: normal;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
 }
 
-// Site title
+// Site title — wraps the inline SVG logo
 .site-title {
+  float: none;
+  margin: 0;
+  line-height: 1;
+  flex-shrink: 0;
   font-weight: 700;
   letter-spacing: -0.02em;
 
   &:hover {
     text-decoration: none;
     color: $link-hover-color;
+  }
+
+  svg {
+    display: block;
+    height: 2.5rem;
+    width: auto;
+  }
+}
+
+// Nav flows as a flex sibling on desktop (minima floats it; override).
+// Hardcoded 600px matches $on-palm in the minima gem's scope.
+@media screen and (min-width: 600px) {
+  .site-nav {
+    position: static;
+    float: none;
   }
 }
 

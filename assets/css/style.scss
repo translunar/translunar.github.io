@@ -5,15 +5,5 @@
 @import "minima/custom-styles";
 
 
-.site-title::before {
-    content: url("/assets/images/logo_small.png");
-display: inline-block;
-position: relative;
-width: 5px;
-top: 10px;
-max-width:100%;
-}
-
-.Coaching::before {
-    content: url("/assets/images/logo_small_pride.png");
-}
+// Logo layout & sizing live in _sass/minima/custom-styles.scss so they
+// can share the brand variables and media-query breakpoints.
