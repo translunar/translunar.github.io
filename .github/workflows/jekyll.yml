@@ -5,6 +5,10 @@ on:
     branches: ["master"]
   workflow_dispatch:
 
+env:
+  FROZEN_REF: main
+  CATALOG_TAG: catalog-57ca6de
+
 permissions:
   contents: read
   pages: write
@@ -35,6 +39,37 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+
+      - name: Checkout frozen
+        uses: actions/checkout@v4
+        with:
+          repository: translunar/frozen
+          ref: ${{ env.FROZEN_REF }}
+          path: frozen-src
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frozen-src/web/package-lock.json
+
+      - name: Fetch frozen catalog
+        run: ./scripts/fetch-catalog.sh "$CATALOG_TAG"
+        working-directory: frozen-src
+
+      - name: Build frozen web app
+        working-directory: frozen-src/web
+        run: |
+          npm ci
+          npm run build
+        env:
+          ELFO_BASE: /tools/frozen/
+
+      - name: Copy frozen build into site
+        run: |
+          mkdir -p _site/tools
+          cp -R frozen-src/web/dist _site/tools/frozen
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
